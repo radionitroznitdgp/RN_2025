@@ -1,17 +1,17 @@
 import React, { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import "./Alumni.css";
-import shubham from "../src/assets/images/alumni/shubham.jpeg";
-import nabina from "../src/assets/images/alumni/nabina.jpg";
-import vineet from "../src/assets/images/alumni/vineet.jpeg";
-import aniket from "../src/assets/images/alumni/Aniket.jpg";
-import priyal from "../src/assets/images/alumni/priyal.jpeg";
-import kens from "../src/assets/images/alumni/kens.jpeg";
-import Debashish from "../src/assets/images/alumni/Debashish.jpg";
-import basab from"../src/assets/images/alumni/basab.jpeg";
-import dharma from"../src/assets/images/alumni/dharma.jpeg";
-import sumit from"../src/assets/images/alumni/sumit.jpeg";
-import rajeev from"../src/assets/images/alumni/rajeev.jpeg";
+import shubham from "./assets/images/alumni/shubham.jpeg";
+import nabina from "./assets/images/alumni/nabina.jpg";
+import vineet from "./assets/images/alumni/vineet.jpeg";
+import aniket from "./assets/images/alumni/Aniket.jpg";
+import priyal from "./assets/images/alumni/priyal.jpeg";
+import kens from "./assets/images/alumni/kens.jpeg";
+import Debashish from "./assets/images/alumni/Debashish.jpg";
+import basab from"./assets/images/alumni/basab.jpeg";
+import dharma from"./assets/images/alumni/dharma.jpeg";
+import sumit from"./assets/images/alumni/sumit.jpeg";
+import rajeev from"./assets/images/alumni/rajeev.jpeg";
 const photoImports = {
     "shubham.jpeg": shubham,
     "nabina.jpg": nabina,
