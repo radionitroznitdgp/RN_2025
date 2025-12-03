@@ -6,7 +6,7 @@ const Home = () => {
   const [displayText, setDisplayText] = useState("");
   const [subtitleText, setSubtitleText] = useState("");
 
-  const fullText = "Radio Nitroz";
+  const fullText = "Radio Nitro";
   const fullSubtitle = "\"Official Entertainment Club of NIT Durgapur\"";
 
 
