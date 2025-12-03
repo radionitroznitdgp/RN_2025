@@ -4,83 +4,94 @@ import "./Team.css";
 import { FaInstagram, FaLinkedin, FaPhone, FaEnvelope } from "react-icons/fa";
 
 // Faculty images
-import Tushar from "./assets/images/faculty/TusharKanti.jpeg";
+import santanu from "/assets/images/faculty/santanu.jpg";
+import soumya from "/assets/images/faculty/soumya.jpg";
 
 // 4th Year images
-import jayantmandal from "./assets/images/4th_yr/Jayant.jpg";
-import kirthika from "./assets/images/4th_yr/kir.jpg";
-import asif from "./assets/images/4th_yr/asif.jpg";
-import ramya from "./assets/images/4th_yr/ramya.jpg";
-import kartikeya from "./assets/images/4th_yr/kar.jpg";
-import pranesh from "./assets/images/4th_yr/pra.jpg";
-import rupali from "./assets/images/4th_yr/rupali.jpg";
-import arnab from "./assets/images/4th_yr/arnab.jpg";
-import anshika from "./assets/images/4th_yr/ansh.jpg";
-import sahil from "./assets/images/4th_yr/sai.JPG";
-import sarmistha from "./assets/images/4th_yr/sar.jpg";
-import raj from "./assets/images/4th_yr/raj.jpg";
-import anshul from "./assets/images/4th_yr/anshul.jpeg";
-import mmss from "./assets/images/4th_yr/mmss.jpeg";
-import shankar from "./assets/images/4th_yr/shankar.jpg";
-import touf from "./assets/images/4th_yr/touf.jpg";
-import rishita from "./assets/images/4th_yr/rish.jpg";
-import deepsika from "./assets/images/4th_yr/deep.jpg";
-import sanjib from "./assets/images/4th_yr/sanjib.jpeg";
-import harshada from "./assets/images/4th_yr/harsh.jpg";
+import jayantmandal from "/assets/images/4th_yr/Jayant.jpg";
+import kirthika from "/assets/images/4th_yr/kir.jpg";
+import asif from "/assets/images/4th_yr/asif.jpg";
+import ramya from "/assets/images/4th_yr/ramya.jpg";
+import kartikeya from "/assets/images/4th_yr/kar.jpg";
+import pranesh from "/assets/images/4th_yr/pra.jpg";
+import rupali from "/assets/images/4th_yr/rupali.jpg";
+import arnab from "/assets/images/4th_yr/arnab.jpg";
+import anshika from "/assets/images/4th_yr/ansh.jpg";
+import sahil from "/assets/images/4th_yr/sai.JPG";
+import sarmistha from "/assets/images/4th_yr/sar.jpg";
+import raj from "/assets/images/4th_yr/raj.jpg";
+import anshul from "/assets/images/4th_yr/anshul.jpeg";
+import mmss from "/assets/images/4th_yr/mmss.jpeg";
+import shankar from "/assets/images/4th_yr/shankar.jpg";
+import touf from "/assets/images/4th_yr/touf.jpg";
+import rishita from "/assets/images/4th_yr/rish.jpg";
+import deepsika from "/assets/images/4th_yr/deep.jpg";
+import sanjib from "/assets/images/4th_yr/sanjib.jpeg";
+import harshada from "/assets/images/4th_yr/harsh.jpg";
 
 // 3rd yr wale
-import aman from "./assets/images/3rd_yr/aman.jpg";
-import animesh from "./assets/images/3rd_yr/animesh.JPG";
-import anth from "./assets/images/3rd_yr/anth.jpg";
-import anurag from "./assets/images/3rd_yr/anurag.jpg";
-import bashu from "./assets/images/3rd_yr/bashu.jpg";
-import bhav from "./assets/images/3rd_yr/bhav.jpg";
-import darshit from "./assets/images/3rd_yr/darshit.jpg";
-import debasmitaSaha from "./assets/images/3rd_yr/DebasmitaSaha.jpg";
-import gopeshwar from "./assets/images/3rd_yr/Gopeshwar.jpg";
-import mmk from "./assets/images/3rd_yr/mmk.jpg";
-import pulkit from "./assets/images/3rd_yr/pulkit.jpeg";
-import sayantan from "./assets/images/3rd_yr/sayantan.jpg";
-import shaswata from "./assets/images/3rd_yr/Shaswata.jpg";
-import soni from "./assets/images/3rd_yr/soni.jpg";
-import suraj from "./assets/images/3rd_yr/suraj.JPG";
-import swastik from "./assets/images/3rd_yr/swastik.jpg";
-import thanu from "./assets/images/3rd_yr/thanu.jpg";
-import vishu from "./assets/images/3rd_yr/vishu.jpg";
-import aditya from "./assets/images/3rd_yr/aditya.jpg";
-import debjyoti from "./assets/images/3rd_yr/debjyoti.jpg";
-import shruti from "./assets/images/3rd_yr/shruti.jpg";
-import soumyadeep from "./assets/images/3rd_yr/soumyadeep.jpg";
-import srijan from "./assets/images/3rd_yr/srijan.jpg";
+import aman from "/assets/images/3rd_yr/aman.jpg";
+import animesh from "/assets/images/3rd_yr/animesh.JPG";
+import anth from "/assets/images/3rd_yr/anth.jpg";
+import anurag from "/assets/images/3rd_yr/anurag.jpg";
+import bashu from "/assets/images/3rd_yr/bashu.jpg";
+import bhav from "/assets/images/3rd_yr/bhav.jpg";
+import darshit from "/assets/images/3rd_yr/darshit.jpg";
+import debasmitaSaha from "/assets/images/3rd_yr/DebasmitaSaha.jpg";
+import gopeshwar from "/assets/images/3rd_yr/Gopeshwar.jpg";
+import mmk from "/assets/images/3rd_yr/mmk.jpg";
+import pulkit from "/assets/images/3rd_yr/pulkit.jpeg";
+import sayantan from "/assets/images/3rd_yr/sayantan.jpg";
+import shaswata from "/assets/images/3rd_yr/Shaswata.jpg";
+import soni from "/assets/images/3rd_yr/soni.jpg";
+import suraj from "/assets/images/3rd_yr/suraj.JPG";
+import swastik from "/assets/images/3rd_yr/swastik.jpg";
+import thanu from "/assets/images/3rd_yr/thanu.jpg";
+import vishu from "/assets/images/3rd_yr/vishu.jpg";
+import aditya from "/assets/images/3rd_yr/aditya.jpg"
+import debjyoti from "/assets/images/3rd_yr/debjyoti.jpg"
+import shruti from "/assets/images/3rd_yr/shruti.jpg"
+import soumyadeep from "/assets/images/3rd_yr/soumyadeep.jpg"
+import srijan from "/assets/images/3rd_yr/srijan.jpg"
 
 // 2nd Year images (example)
-import shivamKumar from "./assets/images/2nd_year/shivam.jpg";
-import pratik from "./assets/images/2nd_year/Pratik.jpg";
-import shobhit from "./assets/images/2nd_year/Shobhit_.jpg";
-import raniPrasanna from "./assets/images/2nd_year/Rani.jpg";
-import philimon from "./assets/images/2nd_year/Philimon_.jpg";
-import suhani from "./assets/images/2nd_year/Suhani.jpg";
-import pravat from "./assets/images/2nd_year/Pravat.JPG";
-import tolaram from "./assets/images/2nd_year/Tolaram_.jpg";
-import pallavi from "./assets/images/2nd_year/Pallavi Kumari_.jpg";
-import arijit from "./assets/images/2nd_year/ar1.jpg";
-import jayant from "./assets/images/2nd_year/jay.jpg";
-import Akhil from "./assets/images/2nd_year/Akhil.jpg";
-import Saipriya from "./assets/images/2nd_year/Saipriya .jpg";
-import Chandra from "./assets/images/2nd_year/Chandramouli.jpg";
-import Shivansh from "./assets/images/2nd_year/Shivansh.jpg";
-import ishita from "./assets/images/2nd_year/ishita.jpg";
+import shivamKumar from "/assets/images/2nd_year/shivam.jpg";
+import pratik from "/assets/images/2nd_year/Pratik.jpg";
+import shobhit from "/assets/images/2nd_year/Shobhit_.jpg";
+import raniPrasanna from "/assets/images/2nd_year/Rani.jpg";
+import philimon from "/assets/images/2nd_year/Philimon_.jpg";
+import suhani from "/assets/images/2nd_year/Suhani.jpg";
+import pravat from "/assets/images/2nd_year/Pravat.JPG";
+import tolaram from "/assets/images/2nd_year/Tolaram_.jpg";
+import pallavi from "/assets/images/2nd_year/Pallavi Kumari_.jpg";
+import arijit from "/assets/images/2nd_year/ar1.jpg";
+import jayant from "/assets/images/2nd_year/jay.jpg";
+import Akhil from "/assets/images/2nd_year/Akhil.jpg";
+import Saipriya from "/assets/images/2nd_year/Saipriya .jpg";
+import Chandra from "/assets/images/2nd_year/Chandramouli.jpg";
+import Shivansh from "/assets/images/2nd_year/Shivansh.jpg";
+import ishita from "/assets/images/2nd_year/ishita.jpg";
+
 
 const members = {
   faculty: [
     {
-      name: "Dr Tushar Kanti Bera",
-      photo: Tushar,
+      name: "Mr. Santanu Paul",
+      photo: santanu,
       post: "Faculty Advisor",
       instagram: "#",
       linkedin: "#",
-      phone: "+919448853308",
-      email: "tusharkanti.bera@ee.nitdgp.ac.in ",
+      phone: "+917866878248",
+      email: "spaul.ee@nitdgp.ac.in",
+    },
+     {
+      name: "Mr. Soumya Chatterjee",
+      photo: soumya,
+      post: "Faculty Advisor",
+      instagram: "#",
+      linkedin: "https://www.linkedin.com/in/soumya-chatterjee-716706237",
+      phone: "+919051016652",
+      email: " schatterjee.ee@nitdgp.ac.in",
     },
   ],
   fourthYear: [
@@ -93,7 +104,7 @@ const members = {
       phone: "+918328078950",
       email: "dss.22u10257@btech.nitdgp.ac.in",
     },
-
+   
     {
       name: "Mohammed Asif",
       photo: asif,
@@ -103,7 +114,7 @@ const members = {
       phone: "+918967290251",
       email: "ma.22u10143@btech.nitdgp.ac.in",
     },
-    {
+     {
       name: "Sk Raj Ali",
       photo: raj,
       post: "Vice President",
@@ -116,8 +127,7 @@ const members = {
       name: "Anshul Kumar Parira",
       photo: anshul,
       post: "Treasurer",
-      instagram:
-        "https://www.instagram.com/anshul.parira/profilecard/?igsh=MTE2eDEzbTlzdDE4Yg==",
+      instagram: "https://www.instagram.com/anshul.parira/profilecard/?igsh=MTE2eDEzbTlzdDE4Yg==",
       linkedin: "https://www.linkedin.com/in/anshul-kumar-parira-684474277/",
       phone: "+917488898308",
       email: "akp.22u10045@btech.nitdgp.ac.in",
@@ -126,8 +136,7 @@ const members = {
       name: "Jayant Mandal",
       photo: jayantmandal,
       post: "Joint Secretary",
-      instagram:
-        "https://www.instagram.com/jayantmandal2004?igsh=MXJieHRrOXN0c2Z5dQ== ",
+      instagram: "https://www.instagram.com/jayantmandal2004?igsh=MXJieHRrOXN0c2Z5dQ== ",
       linkedin: "https://www.linkedin.com/in/jayant-mandal-73a019286/",
       phone: "+919531865131",
       email: "jm.22u10919@btech.nitdgp.ac.in",
@@ -136,8 +145,7 @@ const members = {
       name: "Ramya Akalankam",
       photo: ramya,
       post: "Convenor",
-      instagram:
-        "https://www.instagram.com/_ramya.aaa?igsh=MTNhMDRoZTB3Y2Q4NQ== ",
+      instagram: "https://www.instagram.com/_ramya.aaa?igsh=MTNhMDRoZTB3Y2Q4NQ== ",
       linkedin: "https://www.linkedin.com/in/ramya-akalankam-9222a126b/",
       phone: "+919059167355",
       email: "ar.22u10042@btech.nitdgp.ac.in",
@@ -146,8 +154,7 @@ const members = {
       name: "Rupali Kumari",
       photo: rupali,
       post: "Co Convenor",
-      instagram:
-        "https://www.instagram.com/rupalikumari20.09?igsh=MXBzanRvZDZ6aGJ0dA== ",
+      instagram: "https://www.instagram.com/rupalikumari20.09?igsh=MXBzanRvZDZ6aGJ0dA== ",
       linkedin: "https://www.linkedin.com/in/rupali-kumari-13a782269/",
       phone: "+919153265972",
       email: "rk.22u10549@btech.nitdgp.ac.in",
@@ -161,13 +168,12 @@ const members = {
       phone: "+918977025556",
       email: "kk.22u10186@btech.nitdgp.ac.in",
     },
-
+    
     {
       name: "Md Toufeeque khan",
       photo: touf,
       post: "Tech Head",
-      instagram:
-        "https://www.instagram.com/toufeequekhanmohammad?igsh=cWlrZnlsNWs4eHkx ",
+      instagram: "https://www.instagram.com/toufeequekhanmohammad?igsh=cWlrZnlsNWs4eHkx ",
       linkedin: "#",
       phone: "+917842405876",
       email: "akp.22u10045@btech.nitdgp.ac.in",
@@ -176,8 +182,7 @@ const members = {
       name: "Kirthika S",
       photo: kirthika,
       post: "Event Head",
-      instagram:
-        "https://www.instagram.com/s.k.i.r.t.h.i.k.a?igsh=M3dmZWRzODdybDZp ",
+      instagram: "https://www.instagram.com/s.k.i.r.t.h.i.k.a?igsh=M3dmZWRzODdybDZp ",
       linkedin: "#",
       phone: "+919476057610",
       email: "sk.22u10918@btech.nitdgp.ac.in",
@@ -204,10 +209,11 @@ const members = {
       name: "Arnab Banerjee",
       photo: arnab,
       post: "Sponsorship Head",
-      instagram: "https://www.instagram.com/_0ceanit_?igsh=azNnbGIxZG9xZHBl ",
+      instagram: "https://www.instagram.com/0ceanit?igsh=azNnbGIxZG9xZHBl ",
       linkedin: "https://www.linkedin.com/in/arnab-banerjee-47546019a/",
       phone: "+919064592539",
       email: "ab.22u10749@btech.nitdgp.ac.in",
+      
     },
     {
       name: "Sanjib Maity",
@@ -241,8 +247,7 @@ const members = {
       photo: shankar,
       post: "ATH Head",
       instagram: "",
-      linkedin:
-        "https://www.linkedin.com/in/kumar-sankar-reddy-5a9523261?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      linkedin: "https://www.linkedin.com/in/kumar-sankar-reddy-5a9523261?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       phone: "+916301101659",
       email: "crksr.22u10034@btech.nitdgp.ac.in",
     },
@@ -250,13 +255,11 @@ const members = {
       name: "Sivala Rishita",
       photo: rishita,
       post: "WebD Head",
-      instagram:
-        "https://www.instagram.com/rishitaaahh___?igsh=MXFtczVvenB1c2c4bA== ",
+      instagram: "https://www.instagram.com/rishitaaahh_?igsh=MXFtczVvenB1c2c4bA== ",
       linkedin: "https://www.linkedin.com/in/rishita-sivala-459bbb261/",
       phone: "+919063462911",
       email: "sr.22u10422@btech.nitdgp.ac.in",
-    },
-    {
+    },{
       name: "Harshada Pawar",
       photo: harshada,
       post: "Ideation Head",
@@ -274,16 +277,15 @@ const members = {
       phone: "+916289762949",
       email: "sn.22u10023@btech.nitdgp.ac.in",
     },
+    
   ],
   thirdYear: [
     {
       name: "Rishab Soni",
       photo: soni,
       domain: "Creative Head",
-      instagram:
-        "https://www.instagram.com/rishabhsoni_09/profilecard/?igsh=MTBmYTNjZnhyd3ozbA==",
-      linkedin:
-        "https://www.linkedin.com/in/rishabh-soni-9b533a250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      instagram: "https://www.instagram.com/rishabhsoni_09/profilecard/?igsh=MTBmYTNjZnhyd3ozbA==",
+      linkedin: "https://www.linkedin.com/in/rishabh-soni-9b533a250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       phone: "+916388660810",
       email: "rishabhsoni1803@gmail.com",
     },
@@ -291,8 +293,7 @@ const members = {
       name: "Sayantan Banerjee",
       photo: sayantan,
       domain: "Deputy Treasurer",
-      instagram:
-        "https://www.instagram.com/sayantanb_007?igsh=cnp3eHZxbWIzanIx",
+      instagram: "https://www.instagram.com/sayantanb_007?igsh=cnp3eHZxbWIzanIx",
       linkedin: "https://www.linkedin.com/in/sayantan-banerjee-193b0124a",
       phone: "+918240679056",
       email: "sayantanbanerjee2022@gmail.com",
@@ -301,10 +302,8 @@ const members = {
       name: "Debasmita Saha",
       photo: debasmitaSaha,
       domain: "Content Head",
-      instagram:
-        "https://www.instagram.com/twinkling._star.?igsh=Zzdua2J4Z2Q0cmZt",
-      linkedin:
-        "https://www.linkedin.com/in/debasmita-saha-005405308?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      instagram: "https://www.instagram.com/twinkling._star.?igsh=Zzdua2J4Z2Q0cmZt",
+      linkedin: "https://www.linkedin.com/in/debasmita-saha-005405308?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       phone: "+919748036639",
       email: "ds.23bt8067@nitdgp.ac.in",
     },
@@ -312,8 +311,7 @@ const members = {
       name: "Basudev Pal",
       photo: bashu,
       domain: "Media Head",
-      instagram:
-        "https://www.instagram.com/mr._.basudev._.07?igsh=eTMxN29jbmw2eWty",
+      instagram: "https://www.instagram.com/mr..basudev..07?igsh=eTMxN29jbmw2eWty",
       linkedin: "https://www.linkedin.com/in/basudev-pal-b249002b7",
       phone: "+917750907396",
       email: "bp.23ee8081@nitdgp.ac.in",
@@ -322,10 +320,8 @@ const members = {
       name: "Anurag Ray",
       photo: anurag,
       domain: "Senior Coordinator",
-      instagram:
-        "https://www.instagram.com/anurag_kingoftimes?igsh=MTdjdXhkcTE0aWVnMw==",
-      linkedin:
-        "https://www.linkedin.com/in/anurag-ray-90b613309?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      instagram: "https://www.instagram.com/anurag_kingoftimes?igsh=MTdjdXhkcTE0aWVnMw==",
+      linkedin: "https://www.linkedin.com/in/anurag-ray-90b613309?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       phone: "+919836530276",
       email: "anurag.ray2005@gmail.com",
     },
@@ -334,8 +330,7 @@ const members = {
       photo: anth,
       domain: "Senior Coordinator",
       instagram: "#",
-      linkedin:
-        "https://www.linkedin.com/in/antharya-j-98a140309?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      linkedin: "https://www.linkedin.com/in/antharya-j-98a140309?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       phone: "+917013408920",
       email: "antharyajalligampala@gmail.com",
     },
@@ -352,10 +347,8 @@ const members = {
       name: "MMK Lechler",
       photo: mmk,
       domain: "Senior Coordinator",
-      instagram:
-        "https://www.instagram.com/flora_lechler?igsh=MXVpZDU3cDl1enFuMQ==",
-      linkedin:
-        "https://www.linkedin.com/in/mozes-mani-kumari-919728339?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      instagram: "https://www.instagram.com/flora_lechler?igsh=MXVpZDU3cDl1enFuMQ==",
+      linkedin: "https://www.linkedin.com/in/mozes-mani-kumari-919728339?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       phone: "+919381072245",
       email: "floramosses123@gmail.com",
     },
@@ -364,8 +357,7 @@ const members = {
       photo: animesh,
       domain: "Senior Coordinator",
       instagram: "https://www.instagram.com/madhumitaanimesh_nit_durgapur/",
-      linkedin:
-        "https://www.linkedin.com/in/animesh-satyapragyan-patra-0a6218242/",
+      linkedin: "https://www.linkedin.com/in/animesh-satyapragyan-patra-0a6218242/",
       phone: "+919337269060",
       email: "animeshsatyapragyanpatra@gmail.com",
     },
@@ -373,21 +365,18 @@ const members = {
       name: "Suraj Kumar",
       photo: suraj,
       domain: "Senior Coordinator",
-      instagram:
-        "https://www.instagram.com/samir_arya_1326?igsh=MTQyYXVoYjcyamZndw==",
+      instagram: "https://www.instagram.com/samir_arya_1326?igsh=MTQyYXVoYjcyamZndw==",
       linkedin: "#",
       phone: "+918102152665",
       email: "sk.23ce8050@nitdgp.ac.in",
     },
-
+   
     {
       name: "Sashwata Ghosh",
       photo: shaswata,
       domain: "Senior Coordinator",
-      instagram:
-        "https://www.instagram.com/the_god_particle_01?igsh=bWFheGZid2xrN2lu",
-      linkedin:
-        "https://www.linkedin.com/in/shaswata-ghosh-nit-d?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      instagram: "https://www.instagram.com/the_god_particle_01?igsh=bWFheGZid2xrN2lu",
+      linkedin: "https://www.linkedin.com/in/shaswata-ghosh-nit-d?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       phone: "+917603065660",
       email: "shaswatanitdgpofficial@gmail.com",
     },
@@ -395,8 +384,7 @@ const members = {
       name: "Vishu J",
       photo: vishu,
       domain: "Senior Coordinator",
-      instagram:
-        "https://www.instagram.com/vishu_judiyan?igsh=dHYwYjV1bjE1OW9v",
+      instagram: "https://www.instagram.com/vishu_judiyan?igsh=dHYwYjV1bjE1OW9v",
       linkedin: "#",
       phone: "+917017787510",
       email: "vishujudiyan2005@gmail.com",
@@ -423,10 +411,8 @@ const members = {
       name: "Pulkit Sepat",
       photo: pulkit,
       domain: "Senior Coordinator",
-      instagram:
-        "https://www.instagram.com/invites/contact/?igsh=4ax7dddrgakh&utm_content=rui27b8",
-      linkedin:
-        "https://www.linkedin.com/in/pulkit-sepat-a3882a295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      instagram: "https://www.instagram.com/invites/contact/?igsh=4ax7dddrgakh&utm_content=rui27b8",
+      linkedin: "https://www.linkedin.com/in/pulkit-sepat-a3882a295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       phone: "+918000487872",
       email: "ps.23ch8047@nitdgp.ac.8n",
     },
@@ -443,10 +429,8 @@ const members = {
       name: "Srirama Sai Bhavana",
       photo: bhav,
       domain: "Senior Coordinator",
-      instagram:
-        "https://www.instagram.com/chinni_2213_/profilecard/?igsh=MXgyaXZkazBxc2liYg==",
-      linkedin:
-        "https://www.linkedin.com/in/srirama-saibhavana-9b42ab30a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      instagram: "https://www.instagram.com/chinni_2213_/profilecard/?igsh=MXgyaXZkazBxc2liYg==",
+      linkedin: "https://www.linkedin.com/in/srirama-saibhavana-9b42ab30a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       phone: "+919381770556",
       email: "ss.23cs8153@nitdgp.ac.in",
     },
@@ -454,7 +438,7 @@ const members = {
       name: "Aditya Shaw",
       photo: aditya,
       domain: "Senior Coordinator",
-      instagram: "https://www.instagram.com/_a_d_i_t_y_a__s_h_a_w_/?hl=en",
+      instagram: "https://www.instagram.com/a_d_i_t_y_as_h_a_w/?hl=en",
       linkedin: "https://www.linkedin.com/in/aditya-shaw-b5a3a430a/",
       phone: "+918961414207",
       email: "as.23mm8036@nitdgp.ac.in",
@@ -463,8 +447,7 @@ const members = {
       name: "Debjyoti Shil",
       photo: debjyoti,
       domain: "Senior Coordinator",
-      instagram:
-        "https://www.instagram.com/debjyotishil10?igsh=MTdkNW5leThrejR2bg==",
+      instagram: "https://www.instagram.com/debjyotishil10?igsh=MTdkNW5leThrejR2bg==",
       linkedin: "#",
       phone: "+917980524650",
       email: "debjyotishil03@gmail.com",
@@ -589,7 +572,7 @@ const members = {
       photo: pravat,
       domain: "Event Management",
       instagram:
-        "https://www.instagram.com/_.pravat_?igsh=ZjU2bDRoNmdwZnRn&utm_source=qr",
+        "https://www.instagram.com/.pravat?igsh=ZjU2bDRoNmdwZnRn&utm_source=qr",
       linkedin:
         "https://www.linkedin.com/in/pravat-ranjan-naik-57bab5273?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
       phone: "+918670682455",
@@ -632,7 +615,7 @@ const members = {
       photo: Chandra,
       domain: "Graphic Design",
       instagram:
-        "https://www.instagram.com/_chandramouli__06?igsh=MXZtOWRjYnRtbWswdg==",
+        "https://www.instagram.com/chandramouli_06?igsh=MXZtOWRjYnRtbWswdg==",
       linkedin:
         "https://www.linkedin.com/in/chandra-mouli-9ba938359?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       phone: "+919032141637",
@@ -671,16 +654,7 @@ const members = {
   ],
 };
 
-const MemberCard = ({
-  name,
-  photo,
-  post,
-  domain,
-  instagram,
-  linkedin,
-  phone,
-  email,
-}) => {
+const MemberCard = ({ name, photo, post, domain, instagram, linkedin, phone, email }) => {
   const location = useLocation();
 
   useEffect(() => {
@@ -689,7 +663,7 @@ const MemberCard = ({
 
   return (
     <div className="card">
-      <div className="card-inner">
+      <div className="card-inner">       
         <div className="card-blur-area">
           <div className="avatar-wrapper">
             <img className="avatar" src={photo} alt={name} />
@@ -698,38 +672,22 @@ const MemberCard = ({
           <h3 className="teammember-name">{name}</h3>
           <p className="member-role">{post || domain}</p>
         </div>
-
-        <div className="hover-overlay" onClick={(e) => e.stopPropagation()}>
+       
+        <div className="hover-overlay" onClick={e => e.stopPropagation()}>
           <div className="contact-info">
             <div className="contact-item">
               <FaEnvelope className="contact-icon" />
-              <a href={`mailto:${email}`} className="contact-link">
-                {email}
-              </a>
+              <a href={mailto:${email}} className="contact-link">{email}</a>
             </div>
-            <div className="contact-item">
+             <div className="contact-item">
               <FaPhone className="contact-icon" />
-              <a href className="contact-link">
-                {phone}
-              </a>
+              <a href className="contact-link">{phone}</a>
             </div>
             <div className="social-links">
-              <a
-                href={instagram}
-                className="social-icon"
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={(e) => e.stopPropagation()}
-              >
+              <a href={instagram} className="social-icon" target="_blank" rel="noopener noreferrer" onClick={e => e.stopPropagation()}>
                 <FaInstagram className="icon" />
               </a>
-              <a
-                href={linkedin}
-                className="social-icon"
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={(e) => e.stopPropagation()}
-              >
+              <a href={linkedin} className="social-icon" target="_blank" rel="noopener noreferrer" onClick={e => e.stopPropagation()}>
                 <FaLinkedin className="icon" />
               </a>
             </div>
@@ -737,24 +695,26 @@ const MemberCard = ({
         </div>
       </div>
     </div>
+
   );
 };
+
 
 export default function TeamPage() {
   const [selectedTab, setSelectedTab] = React.useState("faculty");
 
   useEffect(() => {
-    const canvas = document.createElement("canvas");
-    const ctx = canvas.getContext("2d");
+    const canvas = document.createElement('canvas');
+    const ctx = canvas.getContext('2d');
     canvas.className = "particles-canvas";
-    document.querySelector(".team-page").appendChild(canvas);
+    document.querySelector('.team-page').appendChild(canvas);
 
     const resizeCanvas = () => {
       canvas.width = window.innerWidth;
       canvas.height = window.innerHeight;
     };
     resizeCanvas();
-    window.addEventListener("resize", resizeCanvas);
+    window.addEventListener('resize', resizeCanvas);
 
     // Particle animation
     const particles = [];
@@ -772,16 +732,10 @@ export default function TeamPage() {
       update() {
         this.x += Math.cos(this.angle) * this.speed;
         this.y += Math.sin(this.angle) * this.speed;
-        if (
-          this.x < 0 ||
-          this.x > canvas.width ||
-          this.y < 0 ||
-          this.y > canvas.height
-        )
-          this.reset();
+        if (this.x < 0 || this.x > canvas.width || this.y < 0 || this.y > canvas.height) this.reset();
       }
       draw() {
-        ctx.fillStyle = `rgba(108, 99, 255, ${this.size / 3})`;
+        ctx.fillStyle = rgba(108, 99, 255, ${this.size / 3});
         ctx.beginPath();
         ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
         ctx.fill();
@@ -792,7 +746,7 @@ export default function TeamPage() {
 
     const animate = () => {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
-      particles.forEach((p) => {
+      particles.forEach(p => {
         p.update();
         p.draw();
       });
@@ -800,7 +754,7 @@ export default function TeamPage() {
     };
     animate();
 
-    return () => window.removeEventListener("resize", resizeCanvas);
+    return () => window.removeEventListener('resize', resizeCanvas);
   }, []);
 
   const renderMembers = (group) => (
@@ -809,7 +763,7 @@ export default function TeamPage() {
         <MemberCard
           key={index}
           {...member}
-          style={{ animationDelay: `${index * 0.1}s` }}
+          style={{ animationDelay: ${index * 0.1}s }}
         />
       ))}
     </div>
@@ -830,7 +784,7 @@ export default function TeamPage() {
           {Object.keys(members).map((group) => (
             <button
               key={group}
-              className={`tab-button ${selectedTab === group ? "active" : ""}`}
+              className={tab-button ${selectedTab === group ? 'active' : ''}}
               onClick={() => setSelectedTab(group)}
             >
               <span className="tab-text">
