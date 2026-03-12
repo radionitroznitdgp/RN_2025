@@ -118,7 +118,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                to="https://wavecraze.radionitroz.in/"
+                to="https://wavecraze2026.radionitroz.in/"
                 onClick={() => handleNavClick('wave craze')}
                 className={activeSection === 'wave craze' ? 'active' : ''}
               >
