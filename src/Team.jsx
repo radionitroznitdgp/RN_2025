@@ -35,21 +35,21 @@ import srijan from "/assets/images/4th_yr/srijan.jpg"
 // 3rd yr wale
 import shivamKumar from "/assets/images/3rd_yr/shivam.jpg";
 import pratik from "/assets/images/3rd_yr/Pratik.jpg";
-import shobhit from "/assets/images/3rd_yr/Shobhit_.jpg";
+
 import raniPrasanna from "/assets/images/3rd_yr/Rani.jpg";
 import philimon from "/assets/images/3rd_yr/Philimon_.jpg";
 import suhani from "/assets/images/3rd_yr/Suhani.jpg";
 import pravat from "/assets/images/3rd_yr/Pravat.JPG";
 import tolaram from "/assets/images/3rd_yr/Tolaram_.jpg";
-import pallavi from "/assets/images/3rd_yr/Pallavi Kumari_.jpg";
+
 import arijit from "/assets/images/3rd_yr/ar1.jpg";
 import jayant from "/assets/images/3rd_yr/jay.jpg";
 import Akhil from "/assets/images/3rd_yr/Akhil.jpg";
 import murthy from "/assets/images/3rd_yr/murthy.jpeg";
 import Saipriya from "/assets/images/3rd_yr/Saipriya .jpg";
 import Chandra from "/assets/images/3rd_yr/Chandramouli.jpg";
-import Shivansh from "/assets/images/3rd_yr/Shivansh.jpg";
-import ishita from "/assets/images/3rd_yr/ishita.jpg";
+import abir from "/assets/images/3rd_yr/abir.jpeg";
+
 
 //2nd year (examples)
 import sharad from "/assets/images/2nd_yr/sharad.jpeg";
@@ -307,17 +307,7 @@ const members = {
       phone: "+918144171159",
       email: "pkonel1234@gmail.com",
     },
-    {
-      name: "Shobhit Lakra",
-      photo: shobhit,
-      domain: "Event Management",
-      instagram:
-        "https://www.instagram.com/steven_shobhit_31?igsh=MTc1aGExYnRhZ3JuYw==",
-      linkedin:
-        "https://www.linkedin.com/in/shobhit-lakra-335314310?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      phone: "+919609303463",
-      email: "shobhitlakra31@gmail.com",
-    },
+   
     {
       name: "Rani Prasanna",
       photo: raniPrasanna,
@@ -360,16 +350,18 @@ const members = {
       phone:"+916301018012",
       email:"satya18199@gmail.com",
     },
-    {
-      name: "Shivansh Pratap Chaudhary",
-      photo: Shivansh,
-      domain: "Video Editing",
-      instagram: "https://www.instagram.com/shivanshjaypratap/#",
+     {
+      name: "Abir Das",
+      photo: abir,
+      domain: "Event Management, Graphics Design",
+      instagram:
+        "https://www.instagram.com/_abir_._das?vrfl=NWtlZGpkc3p6cW45",
       linkedin:
-        "https://www.linkedin.com/in/shivansh-pratap-chaudhary-1a6b84326?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      phone: "+917905226830",
-      email: "pratapshivansh2005@gmail.com",
+        "https://www.linkedin.com/in/abir-das-b40856325?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      phone: "+917319428779",
+      email: "abir2004das@gmail.com",
     },
+  
     {
       name: "Suhani Vishwakarma",
       photo: suhani,
@@ -403,17 +395,7 @@ const members = {
       phone: "+919257191742",
       email: "tolaramkewatiya@gmail.com",
     },
-    {
-      name: "Pallavi Kumari",
-      photo: pallavi,
-      domain: "Graphic Design & Event Management",
-      instagram:
-        "https://www.instagram.com/pallavikumari_28?igsh=MXUwb2loNWE5YjM4cA==",
-      linkedin:
-        "https://www.linkedin.com/in/pallavi-kumari-02b78a31b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_apps",
-      phone: "+919547051031",
-      email: "pk.24u10367@nitdgp.ac.in",
-    },
+   
     {
       name: "Arijit Bag",
       photo: arijit,
@@ -456,15 +438,7 @@ const members = {
       phone: "+918387817610",
       email: "jayantrachhoya@gmail.com",
     },
-    {
-      name: "Ishita Panda",
-      photo: ishita,
-      domain: "Event Management & Content Writing",
-      instagram: "https://www.instagram.com/the_ipanda?igsh=YmMzYW5rejN1dXJs",
-      linkedin: "https://www.linkedin.com/in/ishita-panda-2783ba355",
-      phone: "+918436633569",
-      email: "ip.24u10942@nitdgp.ac.in ",
-    },
+   
   ],
   secondYear: [
     {
