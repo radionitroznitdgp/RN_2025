@@ -12,6 +12,27 @@ import basab from"/assets/images/alumni/basab.jpeg";
 import dharma from"/assets/images/alumni/dharma.jpeg";
 import sumit from"/assets/images/alumni/sumit.jpeg";
 import rajeev from"/assets/images/alumni/rajeev.jpeg";
+import sai from "/assets/images/alumni26/sai.JPG";
+import asif from "/assets/images/alumni26/asif.jpg";
+import anshul from "/assets/images/alumni26/anshul.jpeg";
+import raj from "/assets/images/alumni26/raj.jpg";
+import jayant from "/assets/images/alumni26/Jayant.jpg";
+import ramya from "/assets/images/alumni26/ramya.jpg";
+import rupali from "/assets/images/alumni26/rupali.jpg";
+import touf from "/assets/images/alumni26/touf.jpg";
+import kar from "/assets/images/alumni26/kar.jpg";
+import kir from "/assets/images/alumni26/kir.jpg";
+import deep from "/assets/images/alumni26/deep.jpg";
+import ansh from "/assets/images/alumni26/ansh.jpg";
+import arnab from "/assets/images/alumni26/arnab.jpg";
+import sanjib from "/assets/images/alumni26/sanjib.jpeg";
+import pra from "/assets/images/alumni26/pra.jpg";
+import mmss from "/assets/images/alumni26/mmss.jpeg";
+import shankar from "/assets/images/alumni26/shankar.jpg";
+import rish from "/assets/images/alumni26/rish.jpg";
+import harsh from "/assets/images/alumni26/harsh.jpg";
+import sar from "/assets/images/alumni26/sar.jpg";
+
 const photoImports = {
     "shubham.jpeg": shubham,
     "nabina.jpg": nabina,
@@ -24,6 +45,27 @@ const photoImports = {
 	"dharma.jpeg":dharma,
 	"sumit.jpeg": sumit,
 	"rajeev.jpeg":rajeev,
+    "sai.JPG": sai,
+    "asif.jpg": asif,
+    "anshul.jpeg": anshul,
+    "raj.jpg": raj,
+    "Jayant.jpg": jayant,
+    "ramya.jpg": ramya,
+    "rupali.jpg": rupali,
+    "touf.jpg": touf,
+    "touf.jpeg": touf,
+    "kar.jpg": kar,
+    "kir.jpg": kir,
+    "deep.jpg": deep,
+    "ansh.jpg": ansh,
+    "arnab.jpg": arnab,
+    "sanjib.jpeg": sanjib,
+    "pra.jpg": pra,
+    "mmss.jpeg": mmss,
+    "shankar.jpg": shankar,
+    "rish.jpg": rish,
+    "harsh.jpg": harsh,
+    "sar.jpg": sar,
     // Add other photo imports here
   };
 const Alumni = () => {
@@ -166,6 +208,28 @@ const Alumni = () => {
     { name: "Dharma Teja",photo: "dharma.jpeg" },
     { name: "Basab Lekri",photo: "basab.jpeg" },
     { name: "Kens Venkateswaralu", photo: "kens.jpeg" }
+  ],
+  2026: [
+    { name: "D. Sai Sahil", photo: "sai.JPG" },
+    { name: "MD Asif", photo: "asif.jpg" },
+    { name: "Anshul K. Parira", photo: "anshul.jpeg" },
+    { name: "SK Raj Ali", photo: "raj.jpg" },
+    { name: "Jayant Mandal", photo: "Jayant.jpg" },
+    { name: "Ramya Akalankam", photo: "ramya.jpg" },
+    { name: "Rupali Kumari", photo: "rupali.jpg" },
+    { name: "MD Toufeeque Khan", photo: "touf.jpg" },
+    { name: "Karthikeya", photo: "kar.jpg" },
+    { name: "Kirthika", photo: "kir.jpg" },
+    { name: "Deepshika", photo: "deep.jpg" },
+    { name: "Anshika", photo: "ansh.jpg" },
+    { name: "Arnab Banerjee", photo: "arnab.jpg" },
+    { name: "Sanjib Maity", photo: "sanjib.jpeg" },
+    { name: "K Pranesh Rao", photo: "pra.jpg" },
+    { name: "Mohan Meesala", photo: "mmss.jpeg" },
+    { name: "Kumar Shankar", photo: "shankar.jpg" },
+    { name: "S Rishitha", photo: "rish.jpg" },
+    { name: "Harshada Pawar", photo: "harsh.jpg" },
+    { name: "Sarmistha Naskar", photo: "sar.jpg" }
   ]
 };
 
@@ -249,7 +313,7 @@ const Alumni = () => {
             c0.35-2.97,0.23-5.95,0.26-8.93c0-0.19,0.13-0.38,0.21-0.57C239.38,186.1,239.77,185.12,238.94,184.35z"className="puzzel-path pink"/>
          <path fill="#EEECE7" d="M234.34,175.62c-0.26-0.17-0.53-0.34-0.79-0.51C233.93,175.1,234.32,175.08,234.34,175.62z"/>
 <path fill="#F6F5F3" d="M232.07,174.32c-0.17-0.08-0.33-0.16-0.5-0.24C231.94,173.72,232.02,173.99,232.07,174.32z"/>
-<path fill="none" stroke="#00BFFF" stroke-width="2" stroke-miterlimit="10" d="M135.16,125.2c0.16,0.03,0.33,0.05,0.49,0.08
+<path fill="none" stroke="#00BFFF" strokeWidth="2" strokeMiterlimit="10" d="M135.16,125.2c0.16,0.03,0.33,0.05,0.49,0.08
 	c0.05,0.54,0.6,0.69,0.89,0.75c1.5,0.31,2.8,0.91,3.97,1.92c0.24,0.21,0.88,0.8,1.48,0.29c0.33,0.05,0.61,0.19,0.76,0.51
 	c0.02,0.53,0.38,0.55,0.77,0.52l-0.01-0.01c0,0.49,0.34,0.55,0.71,0.55c4.26,3.36,6.63,7.88,7.52,13.1c1,5.87,0.46,11.64-2.41,17.02
 	c-1.38,2.59-3.19,4.83-5.52,6.64c-0.58,0.45-0.97,0.54-1.63,0.06c-2.8-2.06-5.66-4.05-8.5-6.06c5.47-2.57,7.34-8.85,6.68-14.1
@@ -269,7 +333,7 @@ const Alumni = () => {
 	c0.17-0.02,0.33-0.04,0.5-0.05c0.51,0.44,1.12,0.53,1.76,0.53c7.16,0,14.33,0,21.49,0c0.51,0,1.04,0.07,1.31-0.52
 	c0.42,0.02,0.84,0.03,1.26,0.05c0.34,1.21,0.91,0.88,1.52,0.22c0.17,0.01,0.34,0.02,0.5,0.03
 	C134.12,125.5,134.75,125.65,135.16,125.2z"className="puzzel-path aqua"/>
-<path fill="none" stroke="#FF4DFF" stroke-miterlimit="10" d="M158.31,83.08c2.72,0.27,2.65,2.93,3.89,4.53
+<path fill="none" stroke="#FF4DFF" strokeMiterlimit="10" d="M158.31,83.08c2.72,0.27,2.65,2.93,3.89,4.53
 	c-0.52,0.48-1.15-0.21-1.7,0.21c0.18,0.68,0.35,1.37,1.33,1.25c1.27-0.14,1.88,0.65,2.5,1.77c-0.85-0.05-1.56,0.12-2.33-0.24
 	c-0.03,1,0.31,1.53,1.25,1.6c0.46,0.03,0.92,0.09,1.38,0.16c0.5,0.08,0.71,0.43,0.67,0.91c-0.04,0.56-0.49,0.29-0.78,0.35
 	c-0.41,0.09-1.08-0.33-1.03,0.61c0.04,0.83,0.53,0.92,1.2,0.89c1.1-0.05,2.24-0.13,2.4,1.47c-0.51,0-0.97-0.03-1.43,0.01
@@ -308,20 +372,20 @@ const Alumni = () => {
 	c0.51-0.24,0.71-0.64,0.45-1.12c-0.24-0.45-0.71-0.56-1.21-0.38c-2.84,1.06-5.34,2.71-7.75,4.52c-0.31,0.23-0.29,0.43-0.12,0.73
 	C157.79,108.82,157.82,109.19,158.21,109.31z M167.08,113.27c1.91-1.24,2.1-3.03,2.22-4.83c0.04-0.59-0.34-0.96-0.94-0.9
 	c-0.6,0.06-0.38,0.54-0.34,0.88C168.17,110.04,167.71,111.53,167.08,113.27z"/>
-<path fill="none" stroke="#00BFFF" stroke-width="2" stroke-miterlimit="10" d="M88.43,198.13c0-0.17,0-0.34,0-0.52
+<path fill="none" stroke="#00BFFF" strokeWidth="2" strokeMiterlimit="10" d="M88.43,198.13c0-0.17,0-0.34,0-0.52
 	c0.02-6.09,0.05-12.17,0.06-18.26c0-3.02-0.04-6.04-0.06-9.06c0-0.09,0-0.18,0-0.27c0-0.09,0-0.18,0-0.27l0.07-0.1l-0.06-0.11
 	c0.02-3.32,0.03-6.63,0.05-9.95c0.4-1.69,1.29-2.62,2.66-2.76c1.7-0.18,2.7,0.47,3.57,2.32c0,17.43,0,34.86,0.01,52.29
 	c0,5.34,0.03,10.69,0.05,16.03c-1.87,0.56-3.79,0.08-5.68,0.25c-0.39,0.03-0.64-0.1-0.72-0.5c0-0.16,0.01-0.33,0.01-0.49
 	c0.11-0.25,0.13-0.51,0.01-0.77c0.03-0.46,0.08-0.92,0.08-1.38c0.01-6.17,0.02-12.35,0.02-18.52
 	C88.49,203.42,88.45,200.78,88.43,198.13z"className="puzzel-path aqua"/>
-<path fill="none" stroke="#00BFFF" stroke-width="2" stroke-miterlimit="10" d="M185.66,197.64c0,0.15,0,0.31,0,0.46
+<path fill="none" stroke="#00BFFF" strokeWidth="2" strokeMiterlimit="10" d="M185.66,197.64c0,0.15,0,0.31,0,0.46
 	c0,0.18,0,0.37,0,0.55c0,0.49,0,0.98,0,1.47c-0.03,0.25-0.08,0.5-0.08,0.75c0,8.87,0,17.74,0.01,26.62
 	c-1.88,0.54-3.81,0.11-5.71,0.21c-0.63,0.03-0.37-0.55-0.37-0.87c-0.02-2.7,0-5.4,0-8.09c0-0.46-0.04-0.92-0.07-1.38
 	c0-0.08,0-0.17,0-0.25c0.02-4.17,0.07-8.34,0.07-12.51c0-14.75-0.01-29.49-0.01-44.24c0-2.62,1.61-4.08,3.82-3.48
 	c0.86,0.23,1.45,0.79,1.92,1.52c0.27,0.67,0.31,1.37,0.31,2.09c0.02,2.94,0.05,5.87,0.08,8.81c0,0.15,0,0.31,0,0.46
 	c-0.12,0.52-0.12,1.04,0,1.56c0,0.66,0,1.32,0,1.98c-0.03,4.83-0.06,9.67-0.07,14.5c0,2.1,0.05,4.2,0.08,6.3c0,0.15,0,0.31,0,0.46
 	c-0.13,0.44-0.13,0.87,0,1.31c0,0.24,0,0.48,0,0.71C185.54,196.94,185.54,197.29,185.66,197.64z"className="puzzel-path aqua"/>
-<path fill="none" stroke="#FF4DFF" stroke-miterlimit="10" d="M158.64,118.45c0.25-0.98-0.72-0.65-1.22-1.1
+<path fill="none" stroke="#FF4DFF" strokeMiterlimit="10" d="M158.64,118.45c0.25-0.98-0.72-0.65-1.22-1.1
 	c1.03-0.63,1.91-1.32,2.66-2.18c0.58-0.66,1.21-0.24,1.73,0.25c0.43,0.42,0.93,0.14,1.4,0.16c0.82,0.41,1.55-0.13,1.94-0.58
 	c0.47-0.55,0.76-0.17,1.13-0.13c0.22,0.07,0.25,0.25,0.26,0.44c-0.02,0.4-0.06,0.8,0.53,0.8c0,0-0.01-0.01-0.01-0.01
 	c-0.05,0.42-0.01,0.78,0.53,0.81c0.5,0.76,1.03,1.51,1.5,2.29c1.11,1.84,0.44,4.41-1.45,5.71c-1.8,1.23-4.22,0.82-5.54-0.97
@@ -723,18 +787,13 @@ style={{
   }}
 >
 	
-	<path className="hover-fill" fill={selectedYear==2024 ? "#000000ff" : "#A020F0"} d="M137.94,226.86l39.1,0.89l0.91-9.77l-26.2-18.86l-13.17-0.24l-0.58,13.14c0,0-4.28-0.28-4.34,3.14
-		c-0.05,3.42,4.29,2.98,4.29,2.98L137.94,226.86z"/>
+	<path className="hover-fill" fill={selectedYear==2024 ? "#000000ff" : "#A020F0"} d="M150.36,227.45L177.04,227.75l0.91-9.77l-26.2-18.86L151.00,198.88l-0.58,13.14c0,0-4.28-0.28-4.34,3.14c-0.05,3.42,4.29,2.98,4.29,2.98L150.36,227.45z"/>
 	<g 
   onClick={() => setSelectedYear(2024)}>
-		<path fill="#FFFFFF" d="M150.4,212.91c0,0.29-0.1,0.61-0.3,0.96l-2.52,4.4h2.81v1.2h-4.45v-0.85l3.11-5.46v-1.69h-1.67v1.71h-1.34
-			v-2.04c0-0.55,0.28-0.83,0.84-0.83h2.69c0.56,0,0.84,0.28,0.84,0.83V212.91z"/>
-		<path fill="#FFFFFF" d="M155.89,218.63c0,0.56-0.28,0.84-0.83,0.84h-2.86c-0.54,0-0.81-0.28-0.81-0.84v-7.49
-			c0-0.56,0.28-0.84,0.83-0.84h2.84c0.55,0,0.83,0.28,0.83,0.84V218.63z M154.55,218.29v-6.81h-1.81v6.81H154.55z"/>
-		<path fill="#FFFFFF" d="M161.3,212.91c0,0.29-0.1,0.61-0.3,0.96l-2.52,4.4h2.81v1.2h-4.45v-0.85l3.11-5.46v-1.69h-1.67v1.71h-1.34
-			v-2.04c0-0.55,0.28-0.83,0.84-0.83h2.69c0.56,0,0.84,0.28,0.84,0.83V212.91z"/>
-		<path fill="#FFFFFF" d="M166.95,217.74h-0.7v1.73h-1.31v-1.73h-3.01v-0.81l2.28-6.63h1.39c0,0.03,0,0.04,0,0.05l-2.14,6.22h1.48
-			v-2.76h1.31v2.76h0.7V217.74z"/>
+		<path fill="#FFFFFF" d="M157.29,212.91c0,0.29-0.1,0.61-0.3,0.96l-2.52,4.4h2.81v1.2h-4.45v-0.85l3.11-5.46v-1.69h-1.67v1.71h-1.34v-2.04c0-0.55,0.28-0.83,0.84-0.83h2.69c0.56,0,0.84,0.28,0.84,0.83V212.91z"/>
+		<path fill="#FFFFFF" d="M162.78,218.63c0,0.56-0.28,0.84-0.83,0.84h-2.86c-0.54,0-0.81-0.28-0.81-0.84v-7.49c0-0.56,0.28-0.84,0.83-0.84h2.84c0.55,0,0.83,0.28,0.83,0.84V218.63z M161.44,218.29v-6.81h-1.81v6.81H161.44z"/>
+		<path fill="#FFFFFF" d="M168.19,212.91c0,0.29-0.1,0.61-0.3,0.96l-2.52,4.4h2.81v1.2h-4.45v-0.85l3.11-5.46v-1.69h-1.67v1.71h-1.34v-2.04c0-0.55,0.28-0.83,0.84-0.83h2.69c0.56,0,0.84,0.28,0.84,0.83V212.91z"/>
+		<path fill="#FFFFFF" d="M173.55,217.74h-0.7v1.73h-1.31v-1.73h-3.01v-0.81l2.28-6.63h1.39c0,0.03,0,0.04,0,0.05l-2.14,6.22h1.48v-2.76h1.31v2.76h0.7V217.74z"/>
 	</g>
 </g>
 <g id="_x32_025"
@@ -746,18 +805,31 @@ style={{
   }}
 >
 
-	<path className="hover-fill" fill={selectedYear==2025 ? "#000000ff" : "#A020F0"} d="M96.44,227.71l-0.04-28.38l14.46-0.19c0,0-0.41,4.26,5.04,6.04c0,0,5.55,1.16,6.33-6.26l13.26-0.05
-		l0.78,0.05l0.12,11.22c0,0-5.17,1.64-4.49,5.35c0,0,0.05,3.42,3.68,4.59l0.8,0.29l-0.18,7.08L96.44,227.71z"/>
+	<path className="hover-fill" fill={selectedYear==2025 ? "#000000ff" : "#A020F0"} d="M123.56,227.45L123.56,218.14c0,0-4.34,0.44-4.29,-2.98c0.06,-3.42,4.34,-3.14,4.34,-3.14L124.20,198.88L149.30,198.92l0.12,11.22c0,0-5.17,1.64-4.49,5.35c0,0,0.05,3.42,3.68,4.59l0.8,0.29l-0.18,7.08L123.56,227.45z"/>
 	<g
   onClick={() => setSelectedYear(2025)}>
-		<path fill="#FFFFFF" d="M110.11,212.91c0,0.29-0.1,0.61-0.3,0.96l-2.52,4.4h2.81v1.2h-4.45v-0.85l3.11-5.46v-1.69h-1.67v1.71
-			h-1.34v-2.04c0-0.55,0.28-0.83,0.84-0.83h2.69c0.56,0,0.84,0.28,0.84,0.83V212.91z"/>
-		<path fill="#FFFFFF" d="M115.6,218.63c0,0.56-0.28,0.84-0.83,0.84h-2.86c-0.54,0-0.81-0.28-0.81-0.84v-7.49
-			c0-0.56,0.28-0.84,0.83-0.84h2.84c0.55,0,0.83,0.28,0.83,0.84V218.63z M114.26,218.29v-6.81h-1.81v6.81H114.26z"/>
-		<path fill="#FFFFFF" d="M121.01,212.91c0,0.29-0.1,0.61-0.3,0.96l-2.52,4.4h2.81v1.2h-4.45v-0.85l3.11-5.46v-1.69h-1.67v1.71
-			h-1.34v-2.04c0-0.55,0.28-0.83,0.84-0.83h2.69c0.56,0,0.84,0.28,0.84,0.83V212.91z"/>
-		<path fill="#FFFFFF" d="M126.37,218.63c0,0.56-0.28,0.84-0.83,0.84h-2.75c-0.54,0-0.81-0.28-0.81-0.84v-2.12h1.35v1.78h1.7v-3.53
-			h-3.05l0.15-4.46h4.18v1.2h-2.91l-0.09,2.09h2.23c0.55,0,0.83,0.28,0.83,0.83V218.63z"/>
+		<path fill="#FFFFFF" d="M130.42,212.91c0,0.29-0.1,0.61-0.3,0.96l-2.52,4.4h2.81v1.2h-4.45v-0.85l3.11-5.46v-1.69h-1.67v1.71h-1.34v-2.04c0-0.55,0.28-0.83,0.84-0.83h2.69c0.56,0,0.84,0.28,0.84,0.83V212.91z"/>
+		<path fill="#FFFFFF" d="M135.91,218.63c0,0.56-0.28,0.84-0.83,0.84h-2.86c-0.54,0-0.81-0.28-0.81-0.84v-7.49c0-0.56,0.28-0.84,0.83-0.84h2.84c0.55,0,0.83,0.28,0.83,0.84V218.63z M134.57,218.29v-6.81h-1.81v6.81H134.57z"/>
+		<path fill="#FFFFFF" d="M141.32,212.91c0,0.29-0.1,0.61-0.3,0.96l-2.52,4.4h2.81v1.2h-4.45v-0.85l3.11-5.46v-1.69h-1.67v1.71h-1.34v-2.04c0-0.55,0.28-0.83,0.84-0.83h2.69c0.56,0,0.84,0.28,0.84,0.83V212.91z"/>
+		<path fill="#FFFFFF" d="M146.68,218.63c0,0.56-0.28,0.84-0.83,0.84h-2.75c-0.54,0-0.81-0.28-0.81-0.84v-2.12h1.35v1.78h1.7v-3.53h-3.05l0.15-4.46h4.18v1.2h-2.91l-0.09,2.09h2.23c0.55,0,0.83,0.28,0.83,0.83V218.63z"/>
+	</g>
+</g>
+<g id="_x32_026"
+onClick={() => setSelectedYear(2026)}
+style={{ 
+    transition: "transform 0.2s ease",
+    transform: selectedYear === 2026 ? "scale(1.02)" : "scale(1)",
+    transformOrigin: "center" // Ensures scaling happens from the center
+  }}
+>
+
+	<path className="hover-fill" fill={selectedYear==2026 ? "#000000ff" : "#A020F0"} d="M96.44,227.71l-0.04-28.38L122.50,198.92l0.12,11.22c0,0-5.17,1.64-4.49,5.35c0,0,0.05,3.42,3.68,4.59l0.8,0.29l-0.18,7.08L96.44,227.71z"/>
+	<g
+  onClick={() => setSelectedYear(2026)}>
+		<path fill="#FFFFFF" d="M103.55,212.91c0,0.29-0.1,0.61-0.3,0.96l-2.52,4.4h2.81v1.2h-4.45v-0.85l3.11-5.46v-1.69h-1.67v1.71h-1.34v-2.04c0-0.55,0.28-0.83,0.84-0.83h2.69c0.56,0,0.84,0.28,0.84,0.83V212.91z"/>
+		<path fill="#FFFFFF" d="M109.04,218.63c0,0.56-0.28,0.84-0.83,0.84h-2.86c-0.54,0-0.81-0.28-0.81-0.84v-7.49c0-0.56,0.28-0.84,0.83-0.84h2.84c0.55,0,0.83,0.28,0.83,0.84V218.63z M107.70,218.29v-6.81h-1.81v6.81H107.70z"/>
+		<path fill="#FFFFFF" d="M114.45,212.91c0,0.29-0.1,0.61-0.3,0.96l-2.52,4.4h2.81v1.2h-4.45v-0.85l3.11-5.46v-1.69h-1.67v1.71h-1.34v-2.04c0-0.55,0.28-0.83,0.84-0.83h2.69c0.56,0,0.84,0.28,0.84,0.83V212.91z"/>
+		<path fill="#FFFFFF" d="M119.81,218.63c0,0.56-0.28,0.84-0.83,0.84h-2.78c-0.55,0-0.83-0.28-0.83-0.84v-7.49c0-0.56,0.27-0.84,0.81-0.84h2.78c0.55,0,0.83,0.28,0.83,0.84v1.94h-1.35v-1.61h-1.72v2.76h2.27c0.55,0,0.83,0.28,0.83,0.83V218.63z M118.47,218.29v-2.89h-1.75v2.89H118.47z"/>
 	</g>
 </g>
 
