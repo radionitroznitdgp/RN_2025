@@ -3,25 +3,25 @@ import { useLocation } from 'react-router-dom';
 import './Sponsors.css';
 
 // Import sponsor images statically
-import jojo from '/assets/sponsors/jojo.jpg';
-import aditya from '/assets/sponsors/aditya.png';
-import sponsor1 from '/assets/sponsors/sponsor 1.jpeg';
-import sponsor2 from '/assets/sponsors/sponsor 2.jpg';
+import jojo from '/assets/sponsors/jojo.webp';
+import aditya from '/assets/sponsors/aditya.webp';
+import sponsor1 from '/assets/sponsors/sponsor 1.webp';
+import sponsor2 from '/assets/sponsors/sponsor 2.webp';
 
-import sponsor4 from '/assets/sponsors/sponsor 4.jpg';
-import sponsor5 from '/assets/sponsors/sponsor 5.jpg';
-import sponsor6 from '/assets/sponsors/sponsor 6.jpeg';
-import sponsor7 from '/assets/sponsors/sponsor 7.jpg';
-import sponsor8 from '/assets/sponsors/sponsor 8.jpg';
-import sponsor9 from '/assets/sponsors/sponsor 9.jpeg';
-import sponsor10 from '/assets/sponsors/sponsor 10.jpg';
-import sponsor11 from '/assets/sponsors/sponsor 11.jpg';
-import sponsor12 from '/assets/sponsors/sponsor 12.jpeg';
-import sponsor13 from '/assets/sponsors/sponsor 13.jpg';
-import sponsor14 from '/assets/sponsors/sponsor 14.jpeg';
-import sponsor15 from '/assets/sponsors/sponsor 15.jpeg';
-import sponsor16 from '/assets/sponsors/sponsor 16.jpg';
-import sponsor17 from '/assets/sponsors/sponsor 17.jpeg';
+import sponsor4 from '/assets/sponsors/sponsor 4.webp';
+import sponsor5 from '/assets/sponsors/sponsor 5.webp';
+import sponsor6 from '/assets/sponsors/sponsor 6.webp';
+import sponsor7 from '/assets/sponsors/sponsor 7.webp';
+import sponsor8 from '/assets/sponsors/sponsor 8.webp';
+import sponsor9 from '/assets/sponsors/sponsor 9.webp';
+import sponsor10 from '/assets/sponsors/sponsor 10.webp';
+import sponsor11 from '/assets/sponsors/sponsor 11.webp';
+import sponsor12 from '/assets/sponsors/sponsor 12.webp';
+import sponsor13 from '/assets/sponsors/sponsor 13.webp';
+import sponsor14 from '/assets/sponsors/sponsor 14.webp';
+import sponsor15 from '/assets/sponsors/sponsor 15.webp';
+import sponsor16 from '/assets/sponsors/sponsor 16.webp';
+import sponsor17 from '/assets/sponsors/sponsor 17.webp';
 
 // Define sponsors array
 const sponsors = [

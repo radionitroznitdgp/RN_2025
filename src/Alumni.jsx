@@ -1,71 +1,70 @@
 import React, { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import "./Alumni.css";
-import shubham from "/assets/images/alumni/shubham.jpeg";
-import nabina from "/assets/images/alumni/nabina.jpg";
-import vineet from "/assets/images/alumni/vineet.jpeg";
-import aniket from "/assets/images/alumni/Aniket.jpg";
-import priyal from "/assets/images/alumni/priyal.jpeg";
-import kens from "/assets/images/alumni/kens.jpeg";
-import Debashish from "/assets/images/alumni/Debashish.jpg";
-import basab from"/assets/images/alumni/basab.jpeg";
-import dharma from"/assets/images/alumni/dharma.jpeg";
-import sumit from"/assets/images/alumni/sumit.jpeg";
-import rajeev from"/assets/images/alumni/rajeev.jpeg";
-import sai from "/assets/images/alumni26/sai.JPG";
-import asif from "/assets/images/alumni26/asif.jpg";
-import anshul from "/assets/images/alumni26/anshul.jpeg";
-import raj from "/assets/images/alumni26/raj.jpg";
-import jayant from "/assets/images/alumni26/Jayant.jpg";
-import ramya from "/assets/images/alumni26/ramya.jpg";
-import rupali from "/assets/images/alumni26/rupali.jpg";
-import touf from "/assets/images/alumni26/touf.jpg";
-import kar from "/assets/images/alumni26/kar.jpg";
-import kir from "/assets/images/alumni26/kir.jpg";
-import deep from "/assets/images/alumni26/deep.jpg";
-import ansh from "/assets/images/alumni26/ansh.jpg";
-import arnab from "/assets/images/alumni26/arnab.jpg";
-import sanjib from "/assets/images/alumni26/sanjib.jpeg";
-import pra from "/assets/images/alumni26/pra.jpg";
-import mmss from "/assets/images/alumni26/mmss.jpeg";
-import shankar from "/assets/images/alumni26/shankar.jpg";
-import rish from "/assets/images/alumni26/rish.jpg";
-import harsh from "/assets/images/alumni26/harsh.jpg";
-import sar from "/assets/images/alumni26/sar.jpg";
+import shubham from "/assets/images/alumni/shubham.webp";
+import nabina from "/assets/images/alumni/nabina.webp";
+import vineet from "/assets/images/alumni/vineet.webp";
+import aniket from "/assets/images/alumni/Aniket.webp";
+import priyal from "/assets/images/alumni/priyal.webp";
+import kens from "/assets/images/alumni/kens.webp";
+import Debashish from "/assets/images/alumni/Debashish.webp";
+import basab from"/assets/images/alumni/basab.webp";
+import dharma from"/assets/images/alumni/dharma.webp";
+import sumit from"/assets/images/alumni/sumit.webp";
+import rajeev from"/assets/images/alumni/rajeev.webp";
+import sai from "/assets/images/alumni26/sai.webp";
+import asif from "/assets/images/alumni26/asif.webp";
+import anshul from "/assets/images/alumni26/anshul.webp";
+import raj from "/assets/images/alumni26/raj.webp";
+import jayant from "/assets/images/alumni26/Jayant.webp";
+import ramya from "/assets/images/alumni26/ramya.webp";
+import rupali from "/assets/images/alumni26/rupali.webp";
+import touf from "/assets/images/alumni26/touf.webp";
+import kar from "/assets/images/alumni26/kar.webp";
+import kir from "/assets/images/alumni26/kir.webp";
+import deep from "/assets/images/alumni26/deep.webp";
+import ansh from "/assets/images/alumni26/ansh.webp";
+import arnab from "/assets/images/alumni26/arnab.webp";
+import sanjib from "/assets/images/alumni26/sanjib.webp";
+import pra from "/assets/images/alumni26/pra.webp";
+import mmss from "/assets/images/alumni26/mmss.webp";
+import shankar from "/assets/images/alumni26/shankar.webp";
+import rish from "/assets/images/alumni26/rish.webp";
+import harsh from "/assets/images/alumni26/harsh.webp";
+import sar from "/assets/images/alumni26/sar.webp";
 
 const photoImports = {
-    "shubham.jpeg": shubham,
-    "nabina.jpg": nabina,
-    "vineet.jpeg": vineet,
-    "Aniket.jpg": aniket,
-    "priyal.jpeg": priyal,
-    "kens.jpeg": kens,
-	"Debashish.jpg":Debashish,
-	"basab.jpeg":basab,
-	"dharma.jpeg":dharma,
-	"sumit.jpeg": sumit,
-	"rajeev.jpeg":rajeev,
-    "sai.JPG": sai,
-    "asif.jpg": asif,
-    "anshul.jpeg": anshul,
-    "raj.jpg": raj,
-    "Jayant.jpg": jayant,
-    "ramya.jpg": ramya,
-    "rupali.jpg": rupali,
-    "touf.jpg": touf,
-    "touf.jpeg": touf,
-    "kar.jpg": kar,
-    "kir.jpg": kir,
-    "deep.jpg": deep,
-    "ansh.jpg": ansh,
-    "arnab.jpg": arnab,
-    "sanjib.jpeg": sanjib,
-    "pra.jpg": pra,
-    "mmss.jpeg": mmss,
-    "shankar.jpg": shankar,
-    "rish.jpg": rish,
-    "harsh.jpg": harsh,
-    "sar.jpg": sar,
+    "shubham.webp": shubham,
+    "nabina.webp": nabina,
+    "vineet.webp": vineet,
+    "Aniket.webp": aniket,
+    "priyal.webp": priyal,
+    "kens.webp": kens,
+	"Debashish.webp":Debashish,
+	"basab.webp":basab,
+	"dharma.webp":dharma,
+	"sumit.webp": sumit,
+	"rajeev.webp":rajeev,
+    "sai.webp": sai,
+    "asif.webp": asif,
+    "anshul.webp": anshul,
+    "raj.webp": raj,
+    "Jayant.webp": jayant,
+    "ramya.webp": ramya,
+    "rupali.webp": rupali,
+    "touf.webp": touf,
+        "kar.webp": kar,
+    "kir.webp": kir,
+    "deep.webp": deep,
+    "ansh.webp": ansh,
+    "arnab.webp": arnab,
+    "sanjib.webp": sanjib,
+    "pra.webp": pra,
+    "mmss.webp": mmss,
+    "shankar.webp": shankar,
+    "rish.webp": rish,
+    "harsh.webp": harsh,
+    "sar.webp": sar,
     // Add other photo imports here
   };
 const Alumni = () => {
@@ -197,39 +196,39 @@ const Alumni = () => {
     { name: "Sankalp Mishra" }
   ],
   2025: [
-    { name: "Shubham Ghosh", photo: "shubham.jpeg" },
-    { name: "Nabina Layek", photo: "nabina.jpg" },
-    { name: "Debashish Panigrahi" ,photo: "Debashish.jpg"},
-    { name: "Vineet Jeengar", photo: "vineet.jpeg" },
-    { name: "Rajeev Yadav",photo: "rajeev.jpeg" },
-    { name: "Aniket Kamble", photo: "Aniket.jpg" },
-    { name: "Sumit Rastogi",photo: "sumit.jpeg" },
-    { name: "Priyal Bhalero", photo: "priyal.jpeg" },
-    { name: "Dharma Teja",photo: "dharma.jpeg" },
-    { name: "Basab Lekri",photo: "basab.jpeg" },
-    { name: "Kens Venkateswaralu", photo: "kens.jpeg" }
+    { name: "Shubham Ghosh", photo: "shubham.webp" },
+    { name: "Nabina Layek", photo: "nabina.webp" },
+    { name: "Debashish Panigrahi" ,photo: "Debashish.webp"},
+    { name: "Vineet Jeengar", photo: "vineet.webp" },
+    { name: "Rajeev Yadav",photo: "rajeev.webp" },
+    { name: "Aniket Kamble", photo: "Aniket.webp" },
+    { name: "Sumit Rastogi",photo: "sumit.webp" },
+    { name: "Priyal Bhalero", photo: "priyal.webp" },
+    { name: "Dharma Teja",photo: "dharma.webp" },
+    { name: "Basab Lekri",photo: "basab.webp" },
+    { name: "Kens Venkateswaralu", photo: "kens.webp" }
   ],
   2026: [
-    { name: "D. Sai Sahil", photo: "sai.JPG" },
-    { name: "MD Asif", photo: "asif.jpg" },
-    { name: "Anshul K. Parira", photo: "anshul.jpeg" },
-    { name: "SK Raj Ali", photo: "raj.jpg" },
-    { name: "Jayant Mandal", photo: "Jayant.jpg" },
-    { name: "Ramya Akalankam", photo: "ramya.jpg" },
-    { name: "Rupali Kumari", photo: "rupali.jpg" },
-    { name: "MD Toufeeque Khan", photo: "touf.jpg" },
-    { name: "Karthikeya", photo: "kar.jpg" },
-    { name: "Kirthika", photo: "kir.jpg" },
-    { name: "Deepshika", photo: "deep.jpg" },
-    { name: "Anshika", photo: "ansh.jpg" },
-    { name: "Arnab Banerjee", photo: "arnab.jpg" },
-    { name: "Sanjib Maity", photo: "sanjib.jpeg" },
-    { name: "K Pranesh Rao", photo: "pra.jpg" },
-    { name: "Mohan Meesala", photo: "mmss.jpeg" },
-    { name: "Kumar Shankar", photo: "shankar.jpg" },
-    { name: "S Rishitha", photo: "rish.jpg" },
-    { name: "Harshada Pawar", photo: "harsh.jpg" },
-    { name: "Sarmistha Naskar", photo: "sar.jpg" }
+    { name: "D. Sai Sahil", photo: "sai.webp" },
+    { name: "MD Asif", photo: "asif.webp" },
+    { name: "Anshul K. Parira", photo: "anshul.webp" },
+    { name: "SK Raj Ali", photo: "raj.webp" },
+    { name: "Jayant Mandal", photo: "Jayant.webp" },
+    { name: "Ramya Akalankam", photo: "ramya.webp" },
+    { name: "Rupali Kumari", photo: "rupali.webp" },
+    { name: "MD Toufeeque Khan", photo: "touf.webp" },
+    { name: "Karthikeya", photo: "kar.webp" },
+    { name: "Kirthika", photo: "kir.webp" },
+    { name: "Deepshika", photo: "deep.webp" },
+    { name: "Anshika", photo: "ansh.webp" },
+    { name: "Arnab Banerjee", photo: "arnab.webp" },
+    { name: "Sanjib Maity", photo: "sanjib.webp" },
+    { name: "K Pranesh Rao", photo: "pra.webp" },
+    { name: "Mohan Meesala", photo: "mmss.webp" },
+    { name: "Kumar Shankar", photo: "shankar.webp" },
+    { name: "S Rishitha", photo: "rish.webp" },
+    { name: "Harshada Pawar", photo: "harsh.webp" },
+    { name: "Sarmistha Naskar", photo: "sar.webp" }
   ]
 };
 

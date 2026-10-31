@@ -4,64 +4,64 @@ import "./Team.css";
 import { FaInstagram, FaLinkedin, FaPhone, FaEnvelope } from "react-icons/fa";
 
 // Faculty images
-import santanu from "/assets/images/faculty/santanu.jpg";
-import soumya from "/assets/images/faculty/soumya.jpg";
+import santanu from "/assets/images/faculty/santanu.webp";
+import soumya from "/assets/images/faculty/soumya.webp";
 
 // 4th Year images
-import aman from "/assets/images/4th_yr/aman.jpg";
-import animesh from "/assets/images/4th_yr/animesh.JPG";
-import anth from "/assets/images/4th_yr/anth.jpg";
-import anurag from "/assets/images/4th_yr/anurag.jpg";
-import bashu from "/assets/images/4th_yr/bashu.jpg";
-import bhav from "/assets/images/4th_yr/bhav.jpg";
-import darshit from "/assets/images/4th_yr/darshit.jpeg";
-import debasmitaSaha from "/assets/images/4th_yr/DebasmitaSaha.jpg";
-import gopeshwar from "/assets/images/4th_yr/Gopeshwar.jpg";
-import mmk from "/assets/images/4th_yr/mmk.jpg";
-import pulkit from "/assets/images/4th_yr/pulkit.jpeg";
-import sayantan from "/assets/images/4th_yr/sayantan.jpg";
-import shaswata from "/assets/images/4th_yr/Shaswata.jpg";
-import soni from "/assets/images/4th_yr/soni.jpg";
-import suraj from "/assets/images/4th_yr/suraj.JPG";
-import swastik from "/assets/images/4th_yr/swastik.jpg";
-import thanu from "/assets/images/4th_yr/thanu.jpg";
-import vishu from "/assets/images/4th_yr/vishu.jpg";
-import aditya from "/assets/images/4th_yr/aditya.jpg"
-import debjyoti from "/assets/images/4th_yr/debjyoti.jpg"
-import shruti from "/assets/images/4th_yr/shruti.jpg"
-import soumyadeep from "/assets/images/4th_yr/soumyadeep.jpg"
-import srijan from "/assets/images/4th_yr/srijan.jpg"
+import aman from "/assets/images/4th_yr/aman.webp";
+import animesh from "/assets/images/4th_yr/animesh.webp";
+import anth from "/assets/images/4th_yr/anth.webp";
+import anurag from "/assets/images/4th_yr/anurag.webp";
+import bashu from "/assets/images/4th_yr/bashu.webp";
+import bhav from "/assets/images/4th_yr/bhav.webp";
+import darshit from "/assets/images/4th_yr/darshit.webp";
+import debasmitaSaha from "/assets/images/4th_yr/DebasmitaSaha.webp";
+import gopeshwar from "/assets/images/4th_yr/Gopeshwar.webp";
+import mmk from "/assets/images/4th_yr/mmk.webp";
+import pulkit from "/assets/images/4th_yr/pulkit.webp";
+import sayantan from "/assets/images/4th_yr/sayantan.webp";
+import shaswata from "/assets/images/4th_yr/Shaswata.webp";
+import soni from "/assets/images/4th_yr/soni.webp";
+import suraj from "/assets/images/4th_yr/suraj.webp";
+import swastik from "/assets/images/4th_yr/swastik.webp";
+import thanu from "/assets/images/4th_yr/thanu.webp";
+import vishu from "/assets/images/4th_yr/vishu.webp";
+import aditya from "/assets/images/4th_yr/aditya.webp"
+import debjyoti from "/assets/images/4th_yr/debjyoti.webp"
+import shruti from "/assets/images/4th_yr/shruti.webp"
+import soumyadeep from "/assets/images/4th_yr/soumyadeep.webp"
+import srijan from "/assets/images/4th_yr/srijan.webp"
 
 // 3rd yr wale
-import shivamKumar from "/assets/images/3rd_yr/shivam.jpg";
-import pratik from "/assets/images/3rd_yr/Pratik.jpg";
+import shivamKumar from "/assets/images/3rd_yr/shivam.webp";
+import pratik from "/assets/images/3rd_yr/Pratik.webp";
 
-import raniPrasanna from "/assets/images/3rd_yr/Rani.jpg";
-import philimon from "/assets/images/3rd_yr/Philimon_.jpg";
-import suhani from "/assets/images/3rd_yr/Suhani.jpg";
-import pravat from "/assets/images/3rd_yr/Pravat.JPG";
-import tolaram from "/assets/images/3rd_yr/Tolaram_.jpg";
+import raniPrasanna from "/assets/images/3rd_yr/Rani.webp";
+import philimon from "/assets/images/3rd_yr/Philimon_.webp";
+import suhani from "/assets/images/3rd_yr/Suhani.webp";
+import pravat from "/assets/images/3rd_yr/Pravat.webp";
+import tolaram from "/assets/images/3rd_yr/Tolaram_.webp";
 
-import arijit from "/assets/images/3rd_yr/ar1.jpg";
-import jayant from "/assets/images/3rd_yr/jay.jpg";
-import Akhil from "/assets/images/3rd_yr/Akhil.jpg";
-import murthy from "/assets/images/3rd_yr/murthy.jpg";
-import Saipriya from "/assets/images/3rd_yr/Saipriya .jpg";
-import Chandra from "/assets/images/3rd_yr/Chandramouli.jpg";
-import abir from "/assets/images/3rd_yr/abir.jpeg";
+import arijit from "/assets/images/3rd_yr/ar1.webp";
+import jayant from "/assets/images/3rd_yr/jay.webp";
+import Akhil from "/assets/images/3rd_yr/Akhil.webp";
+import murthy from "/assets/images/3rd_yr/murthy.webp";
+import Saipriya from "/assets/images/3rd_yr/Saipriya .webp";
+import Chandra from "/assets/images/3rd_yr/Chandramouli.webp";
+import abir from "/assets/images/3rd_yr/abir.webp";
 
 
 //2nd year (examples)
-import sharad from "/assets/images/2nd_yr/sharad.jpeg";
-import keshav from "/assets/images/2nd_yr/keshav.jpeg";
-import swatchata from "/assets/images/2nd_yr/swatchatha.jpeg";
-import trisha from "/assets/images/2nd_yr/trisha.jpeg";
-import kuldeep from "/assets/images/2nd_yr/kuldeep.jpeg";
-import tarak from "/assets/images/2nd_yr/tarak.jpeg";
-import mohitha from "/assets/images/2nd_yr/nandini.jpeg";
-import hasini from "/assets/images/2nd_yr/hasini.jpeg";
-import dinesh from "/assets/images/2nd_yr/dinesh.jpeg";
-import rudra from "/assets/images/2nd_yr/rudra.jpeg";
+import sharad from "/assets/images/2nd_yr/sharad.webp";
+import keshav from "/assets/images/2nd_yr/keshav.webp";
+import swatchata from "/assets/images/2nd_yr/swatchatha.webp";
+import trisha from "/assets/images/2nd_yr/trisha.webp";
+import kuldeep from "/assets/images/2nd_yr/kuldeep.webp";
+import tarak from "/assets/images/2nd_yr/tarak.webp";
+import mohitha from "/assets/images/2nd_yr/nandini.webp";
+import hasini from "/assets/images/2nd_yr/hasini.webp";
+import dinesh from "/assets/images/2nd_yr/dinesh.webp";
+import rudra from "/assets/images/2nd_yr/rudra.webp";
 
 
 const members = {
