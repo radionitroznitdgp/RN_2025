@@ -9,7 +9,7 @@
 }
 
 .sponsors-container {
-  padding: 3rem 1.5rem;
+  padding: 7rem 1.5rem 3rem;
   background: linear-gradient(
   135deg,
   rgba(84, 14, 28, 0.15) 0%,   
@@ -40,7 +40,7 @@
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 700;
-  
+ 
   /* Animation properties */
   animation: 
     gradient_Shift 8s ease infinite,
@@ -165,6 +165,7 @@
   }
   
   .page-title {
+   
     margin-bottom: 1.5rem;
   }
   
@@ -206,4 +207,3 @@
     text-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   }
 }
-

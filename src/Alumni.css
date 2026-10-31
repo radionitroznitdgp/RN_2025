@@ -1,7 +1,10 @@
 .alumni-container {
   font-family: 'Arial', sans-serif;
   margin: 0 auto;
-  padding: 1.5rem;
+    margin-top: 40px;
+  padding:1.5rem;
+  padding-top: 100px;
+
   text-align: center;
   color: #333;
   background: linear-gradient(

@@ -45,7 +45,7 @@ import tolaram from "/assets/images/3rd_yr/Tolaram_.jpg";
 import arijit from "/assets/images/3rd_yr/ar1.jpg";
 import jayant from "/assets/images/3rd_yr/jay.jpg";
 import Akhil from "/assets/images/3rd_yr/Akhil.jpg";
-import murthy from "/assets/images/3rd_yr/murthy.jpeg";
+import murthy from "/assets/images/3rd_yr/murthy.jpg";
 import Saipriya from "/assets/images/3rd_yr/Saipriya .jpg";
 import Chandra from "/assets/images/3rd_yr/Chandramouli.jpg";
 import abir from "/assets/images/3rd_yr/abir.jpeg";
