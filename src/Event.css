@@ -122,6 +122,7 @@
     display: block;
     border-radius: 20px;
 }
+/*fest highlights*/
 /*FEST HIGHLIGHTS*/
 .fest-cylinder-section {
     width: 100%;
@@ -168,225 +169,12 @@ animation:
         background-position: 100% 50%;
     }
 }
-/* FEST CONTROLS */
-.fest-cylinder-controls {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    margin: 0 0 12px;
-}
-.fest-cylinder-radio {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-}
-.fest-cylinder-radio input {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    opacity: 0;
-    pointer-events: none;
-}
-.fest-cylinder-radio span {
-    width: 7px;
-    height: 7px;
-    display: block;
-    border:
-        2px solid rgba(168,85,247,.75);
-    border-radius: 50%;
-    transition: .3s ease;
-}
-.fest-cylinder-radio input:checked + span {
-    width: 11px;
-    height: 11px;
-    background:
-        linear-gradient(
-            135deg,
-            #a855f7,
-            #ec4899
-        );
-    border-color: #ec4899;
-    box-shadow:
-        0 0 8px rgba(236,72,153,.8),
-        0 0 18px rgba(168,85,247,.4);
-}
-/* CYLINDER */
-.fest-cylinder-container {
-    position: relative;
-    width: 100%;
-    height: 365px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    perspective: 1200px;
-    perspective-origin: center center;
-    overflow: visible;
-    touch-action: pan-y;
-}
-.fest-cylinder-wheel {
-    position: relative;
-    width: var(--fest-cylinder-width);
-    height: var(--fest-cylinder-height);
-    transform-style: preserve-3d;
-    transition:
-        transform .9s cubic-bezier(.22,.61,.36,1);
-    cursor: grab;
-    user-select: none;
-    will-change: transform;
-}
-.fest-cylinder-wheel:active {
-    cursor: grabbing;
-}
-.fest-cylinder-item {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: var(--fest-cylinder-width);
-    height: var(--fest-cylinder-height);
-    transform-style: preserve-3d;
-    cursor: pointer;
-    -webkit-tap-highlight-color: transparent;
-}
-/* FEST CARD */
-.fest-cylinder-card {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    border-radius: 16px;
-    background: #151527;
-    border:
-        1px solid rgba(255,255,255,.16);
-    transform-style: preserve-3d;
-    backface-visibility: hidden;
-    box-shadow:
-        0 16px 38px rgba(0,0,0,.52),
-        0 0 20px rgba(139,92,246,.08);
-    transition:
-        transform .4s ease,
-        box-shadow .4s ease,
-        border-color .4s ease;
-}
-.fest-cylinder-card img {
-    width: 100%;
-    height: 100%;
-    display: block;
-    object-fit: cover;
-    object-position: center;
-    user-select: none;
-    pointer-events: none;
-    transition:
-        transform .5s cubic-bezier(.22,1,.36,1),
-        filter .4s ease;
-}
-/* FEST OVERLAY */
-.fest-cylinder-overlay {
-    position: absolute;
-    inset: 0;
-    z-index: 2;
-    background:
-        linear-gradient(
-            to top,
-            rgba(0,0,0,.93) 0%,
-            rgba(0,0,0,.58) 30%,
-            rgba(0,0,0,.12) 70%,
-            transparent 100%
-        );
-    pointer-events: none;
-    transition:
-        background .4s ease;
-}
-.fest-cylinder-caption {
-    position: absolute;
-    left: 6px;
-    right: 6px;
-    bottom: 8px;
-    z-index: 5;
-    padding: 7px 4px;
-    text-align: center;
-    font-family: var(--display-font);
-    font-size: .76rem;
-    font-weight: 700;
-    letter-spacing: .7px;
-    line-height: 1.2;
-    background:
-        linear-gradient(
-            90deg,
-            #ffffff,
-            #ddd6fe,
-            #c084fc,
-            #f9a8d4,
-            #ffffff
-        );
-    background-size: 250% auto;
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    color: transparent;
-    filter:
-        drop-shadow(0 2px 4px rgba(0,0,0,.95))
-        drop-shadow(0 0 7px rgba(192,132,252,.25));
-    opacity: .92;
-    transform:
-        translateY(4px)
-        scale(.97);
-    transition:
-        transform .35s ease,
-        opacity .35s ease,
-        background-position .5s ease;
-}
-/* FEST HOVER */
-.fest-cylinder-item:hover .fest-cylinder-card {
-    transform:
-        translateZ(24px)
-        scale(1.025);
-    border-color:
-        rgba(192,132,252,.72);
-    box-shadow:
-        0 23px 50px rgba(0,0,0,.72),
-        0 0 27px rgba(139,92,246,.36),
-        0 0 50px rgba(236,72,153,.12);
-}
-.fest-cylinder-item:hover .fest-cylinder-card img {
-    transform: scale(1.055);
-    filter:
-        brightness(1.05)
-        saturate(1.1)
-        contrast(1.03);
-}
-.fest-cylinder-item:hover .fest-cylinder-overlay {
-    background:
-        linear-gradient(
-            to top,
-            rgba(0,0,0,.95) 0%,
-            rgba(0,0,0,.55) 35%,
-            rgba(0,0,0,.08) 72%,
-            transparent 100%
-        );
-}
-.fest-cylinder-item:hover .fest-cylinder-caption {
-    opacity: 1;
-    transform:
-        translateY(0)
-        scale(1);
-    background-position: 100% 50%;
-}
-/* ACTIVE FEST CARD */
-.fest-cylinder-item.active .fest-cylinder-card {
-    box-shadow:
-        0 23px 55px rgba(0,0,0,.72),
-        0 0 28px rgba(139,92,246,.38),
-        0 0 55px rgba(236,72,153,.13);
-}
-.fest-cylinder-item.active .fest-cylinder-caption {
-    opacity: 1;
-    transform: translateY(0) scale(1);
-}
-.fest-cylinder-item:not(.active) .fest-cylinder-card {
-    filter: brightness(.86);
-}
+
+
+
+ 
+
+
 /*EVENTS */
 .events-carousel-section {
     width: 100%;
@@ -1103,3 +891,22 @@ animation:
     }
 }
 
+
+/* ================================
+   FLEX CAROUSEL (Fest Highlights) — RESPONSIVE HEIGHT
+   ================================ */
+.fest-carousel-wrap {
+    width: 100%;
+    height: 520px;
+}
+@media (max-width: 1024px) {
+    .fest-carousel-wrap { height: 440px; }
+}
+@media (max-width: 768px) {
+    .fest-carousel-wrap { height: 360px; }
+    .fest-cylinder-section { padding: 40px 0 55px; }
+}
+@media (max-width: 480px) {
+    .fest-carousel-wrap { height: 280px; }
+    .fest-cylinder-section { padding: 30px 0 45px; }
+}

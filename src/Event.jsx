@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import "./Event.css";
+import FlexCarousel from './FlexCarousel';
 import bgVideo from "/assets/videoplayback (1).mp4";
 import glamitUp from "/assets/events/rampwalk.jpeg";
 import mrn from "/assets/events/mrn.jpg";
@@ -27,6 +28,11 @@ const festCards = [
   { id: 4, image: comedyNight, title: "Comedy Night" },
   { id: 5, image: movieMystic, title: "Movie Mystic" },
 ];
+const flexFestItems = festCards.map((item) => ({
+  src: item.image,
+  alt: item.title,
+  title: item.title,
+}));
 const eventCards = [
   { id: 6, image: nexusVerse, title: "Nexus Verse" },
   { id: 7, image: voiceItUp, title: "Voice It Out" },
@@ -45,134 +51,11 @@ const videoSeriesCards = [
   { id: 18, image: nds, title: "NIT Durgapur Special" },
   { id: 19, image: des, title: "Dil Ki Ek Diary Se" },
 ];
-/*1. FEST HIGHLIGHTS CYLINDER 3D CAROUSEL */
-const FestHighlightsCylinder = ({ items }) => {
-  const [activeIndex, setActiveIndex] = useState(0);
-  const [isPaused, setIsPaused] = useState(false);
-  const startXRef = useRef(0);
-  const isDraggingRef = useRef(false);
-  const angle = 360 / items.length;
-  /* Auto rotation */
-  useEffect(() => {
-    if (isPaused) return;
-    const interval = setInterval(() => {
-      setActiveIndex((prev) => (prev + 1) % items.length);
-    }, 3000);
-    return () => clearInterval(interval);
-  }, [items.length, isPaused]);
-  /* Drag / swipe */
-  const handlePointerDown = (e) => {
-    isDraggingRef.current = true;
-    startXRef.current = e.clientX;
-    setIsPaused(true);
-  };
-  const handlePointerMove = (e) => {
-    if (!isDraggingRef.current) return;
-    const difference = e.clientX - startXRef.current;
-    if (Math.abs(difference) > 50) {
-      if (difference > 0) {
-        setActiveIndex(
-          (prev) => (prev - 1 + items.length) % items.length
-        );
-      } else {
-        setActiveIndex(
-          (prev) => (prev + 1) % items.length
-        );
-      }
-      startXRef.current = e.clientX;
-    }
-  };
-  const handlePointerUp = () => {
-    isDraggingRef.current = false;
-    setIsPaused(false);
-  };
-  return (
-    <section className="fest-cylinder-section">
-      <h2 className="fest-cylinder-title">
-        Fest Highlights
-      </h2>
-      {/* Radio controls */}
-      <div className="fest-cylinder-controls">
-        {items.map((item, index) => (
-          <label
-            key={item.id}
-            className="fest-cylinder-radio"
-          >
-            <input
-              type="radio"
-              name="fest-highlights"
-              checked={activeIndex === index}
-              onChange={() => setActiveIndex(index)}
-            />
-            <span />
-          </label>
-        ))}
-      </div>
-      {/* 3D cylinder */}
-      <div
-        className="fest-cylinder-container"
-        onMouseEnter={() => setIsPaused(true)}
-        onMouseLeave={() => {
-          if (!isDraggingRef.current) {
-            setIsPaused(false);
-          }
-        }}
-      >
-        <div
-          className="fest-cylinder-wheel"
-          style={{
-            transform: `rotateY(${-activeIndex * angle}deg)`,
-          }}
-          onPointerDown={handlePointerDown}
-          onPointerMove={handlePointerMove}
-          onPointerUp={handlePointerUp}
-          onPointerCancel={handlePointerUp}
-          onPointerLeave={handlePointerUp}
-        >
-          {items.map((item, index) => (
-            <div
-              key={item.id}
-              className={`fest-cylinder-item ${
-                index === activeIndex ? "active" : ""
-              }`}
-              style={{
-                transform: `
-                  rotateY(${index * angle}deg)
-                  translateZ(var(--fest-cylinder-radius))
-                `,
-              }}
-              onClick={() => setActiveIndex(index)}
-            >
-              <div className="fest-cylinder-card">
-                <img
-                  src={item.image}
-                  alt={item.title}
-                  draggable="false"
-                />
-                <div className="fest-cylinder-overlay" />
-                <div className="fest-cylinder-caption">
-                  {item.title}
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-};
+
 /*2. EVEnts FAN / SIDE CARD CAROUSEL */
 const EventsCarousel = ({ title, items }) => {
   const [active, setActive] = useState(0);
   const [hovered, setHovered] = useState(null);
-  useEffect(() => {
-    const timer = setInterval(() => {
-      if (hovered === null) {
-        setActive((prev) => (prev + 1) % items.length);
-      }
-    }, 3000);
-    return () => clearInterval(timer);
-  }, [items.length, hovered]);
   const getOffset = (index) => {
     let offset = index - active;
     if (offset > items.length / 2) {
@@ -311,9 +194,22 @@ const Event = () => {
         </div>
       </div>
       {/* 1. FEST HIGHLIGHTs  CYLINDER 3D */}
-      <FestHighlightsCylinder
-        items={festCards}
-      />
+    <section className="fest-cylinder-section">
+  <h2 className="fest-cylinder-title">
+    Fest Highlights
+  </h2>
+
+  <div className="fest-carousel-wrap">
+    <FlexCarousel
+      items={flexFestItems}
+      cardHeight={0.62}
+      gap={10}
+      radius={14}
+      preset="liquid"
+      captions={true}
+    />
+  </div>
+</section>
       {/*2. EVENTS FAN / SIDE CARD */}
       <EventsCarousel
         title="Events"
