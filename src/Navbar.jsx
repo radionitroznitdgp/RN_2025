@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import './Navbar.css';
-import logoImage from './assets/rnlogo.png';
+import logoImage from '/assets/rnlogo.png';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 
 const Navbar = () => {

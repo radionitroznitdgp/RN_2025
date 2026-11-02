@@ -1,7 +1,10 @@
 .alumni-container {
   font-family: 'Arial', sans-serif;
   margin: 0 auto;
-  padding: 1.5rem;
+    margin-top: 40px;
+  padding:1.5rem;
+  padding-top: 100px;
+
   text-align: center;
   color: #333;
   background: linear-gradient(
@@ -158,6 +161,18 @@
   font-style: italic;
   padding: 2rem 1rem;
   font-size: 1rem;
+}
+.hover-fill {
+  transition: fill 0.2s ease;
+  cursor: pointer;
+}
+
+.hover-fill:hover {
+  filter: brightness(1.15);
+}
+
+g[id^="_x32_"] {
+  cursor: pointer;
 }
 
 /* Responsive adjustments */

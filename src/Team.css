@@ -128,12 +128,13 @@
 }
 
 .tab-button:hover {
-  color: var(--text);
-  transform: translateY(-2px);
+  color: #00d4ff;
+  text-shadow: 0 0 8px #00d4ff;
 }
 
 .tab-button.active {
-  color: var(--text);
+   color: #00d4ff;
+  text-shadow: 0 0 8px #00d4ff;
 }
 
 .tab-highlight {

@@ -8,6 +8,7 @@ import {
   FaEnvelope,
   FaLinkedin,
 } from "react-icons/fa";
+import Feed from "./feed";
 
 const Footer = () => {
   return (
@@ -38,7 +39,7 @@ const Footer = () => {
         <div className="footer-section key-contacts-section">
           <h3>Key Contacts</h3>
           <div className="contact-card">
-            <p><strong>President:</strong> D Sai Sahil<br />📞 +91 8328078950 
+            <p><strong>President:</strong> Basudev Pal <br />📞 +91 7750907396
 </p>
             
           </div>
@@ -83,6 +84,10 @@ const Footer = () => {
           &copy; {new Date().getFullYear()} Radio NITroz. All Rights Reserved.
         </p>
       </div>
+     <div className="footer-feedback">
+        <Feed/>
+      </div>
+      
     </footer>
   );
 };

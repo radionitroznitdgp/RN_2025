@@ -1,0 +1,350 @@
+/* =========================================================
+   404 NOT FOUND PAGE - RADIO NITROZ (IMMERSIVE BACKGROUND)
+   ========================================================= */
+
+.not-found-container {
+  position: relative;
+  min-height: calc(100vh - 80px);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  background-color: var(--background, #0f0f1a);
+  overflow: hidden;
+  isolation: isolate;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* ---------------------------------------------------------
+   BACKGROUND ARTWORK & ATMOSPHERIC BLEND LAYERS
+   --------------------------------------------------------- */
+.nf-bg-layer {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Background Character Art */
+.nf-bg-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 25%;
+  filter: brightness(0.68) contrast(1.18) saturate(1.25);
+  transform: scale(1.03);
+  animation: nf-bg-breathe 14s ease-in-out infinite alternate;
+  will-change: transform;
+}
+
+/* Deep synthwave/cyber dark tint: blends light blue into deep purple-navy */
+.nf-bg-tint {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(15, 15, 26, 0.72) 0%,
+    rgba(76, 29, 149, 0.45) 50%,
+    rgba(15, 15, 26, 0.8) 100%
+  );
+  mix-blend-mode: multiply;
+}
+
+/* Radial Vignette: softly dissolves character edges into deep space #0f0f1a */
+.nf-bg-vignette {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    ellipse 72% 72% at 50% 45%,
+    transparent 15%,
+    rgba(15, 15, 26, 0.6) 55%,
+    #0f0f1a 95%
+  );
+}
+
+/* Top seam fade for seamless transition from navbar */
+.nf-bg-fade-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 130px;
+  background: linear-gradient(to bottom, #0f0f1a 0%, rgba(15, 15, 26, 0) 100%);
+}
+
+/* Bottom seam fade for seamless transition to footer */
+.nf-bg-fade-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 160px;
+  background: linear-gradient(to top, #0f0f1a 0%, rgba(15, 15, 26, 0) 100%);
+}
+
+/* Ambient Neon Glow Orbs */
+.nf-ambient-glow {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(100px);
+  pointer-events: none;
+  opacity: 0.5;
+  will-change: transform;
+}
+
+.nf-glow-1 {
+  top: 15%;
+  left: 15%;
+  width: 480px;
+  height: 480px;
+  background: radial-gradient(circle, rgba(108, 99, 255, 0.5) 0%, transparent 70%);
+  animation: nf-glow-float 16s ease-in-out infinite alternate;
+}
+
+.nf-glow-2 {
+  bottom: 12%;
+  right: 15%;
+  width: 520px;
+  height: 520px;
+  background: radial-gradient(circle, rgba(236, 72, 153, 0.45) 0%, transparent 70%);
+  animation: nf-glow-float 18s ease-in-out infinite alternate-reverse;
+}
+
+/* Subtle tech grid */
+.nf-grid-overlay {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+  background-size: 50px 50px;
+  mask-image: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.7) 0%, transparent 80%);
+  -webkit-mask-image: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.7) 0%, transparent 80%);
+  opacity: 0.5;
+}
+
+/* ---------------------------------------------------------
+   FOREGROUND HERO CONTENT & FROSTED GLASS CARD
+   --------------------------------------------------------- */
+.not-found-content {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 580px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nf-glass-card {
+  position: relative;
+  width: 100%;
+  padding: 48px 44px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: rgba(15, 15, 26, 0.58);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border-radius: 28px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow:
+    0 30px 80px rgba(0, 0, 0, 0.65),
+    0 0 50px rgba(124, 58, 237, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.4s ease;
+}
+
+.nf-glass-card:hover {
+  transform: translateY(-4px);
+  box-shadow:
+    0 35px 90px rgba(0, 0, 0, 0.75),
+    0 0 60px rgba(168, 85, 247, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.25);
+}
+
+/* Neon Top Border Accent */
+.nf-card-top-glow {
+  position: absolute;
+  top: -1px;
+  left: 20%;
+  right: 20%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #c084fc, #ec4899, transparent);
+  border-radius: 2px;
+}
+
+/* Giant 404 Heading */
+.nf-glitch-title {
+  font-family: 'Dune Rise', 'Cinzel', serif;
+  font-size: clamp(5rem, 12vw, 8.5rem);
+  font-weight: 900;
+  line-height: 0.95;
+  letter-spacing: 5px;
+  margin: 0 0 16px;
+  background: linear-gradient(
+    90deg,
+    #ffffff 0%,
+    #d8b4fe 25%,
+    #c084fc 50%,
+    #f9a8d4 75%,
+    #ffffff 100%
+  );
+  background-size: 260% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  animation: nf-gradient-flow 6s ease-in-out infinite;
+  filter: drop-shadow(0 0 30px rgba(168, 85, 247, 0.45));
+}
+
+/* Subtitle */
+.nf-subtitle {
+  font-family: 'Cinzel', serif;
+  font-size: clamp(1.5rem, 3.5vw, 2.2rem);
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: 0 0 32px;
+  line-height: 1.2;
+  text-shadow:
+    0 2px 14px rgba(0, 0, 0, 0.8),
+    0 0 20px rgba(168, 85, 247, 0.35);
+}
+
+/* Actions */
+.nf-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.nf-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 14px 36px;
+  border-radius: 14px;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.nf-btn-primary {
+  background: linear-gradient(135deg, #7c3aed 0%, #ec4899 100%);
+  color: #ffffff;
+  box-shadow:
+    0 12px 28px rgba(124, 58, 237, 0.45),
+    0 0 24px rgba(236, 72, 153, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.nf-btn-primary:hover {
+  transform: translateY(-3px) scale(1.03);
+  box-shadow:
+    0 18px 40px rgba(124, 58, 237, 0.65),
+    0 0 35px rgba(236, 72, 153, 0.45);
+  color: #ffffff;
+}
+
+.nf-btn-icon {
+  flex-shrink: 0;
+  transition: transform 0.3s ease;
+}
+
+.nf-btn-primary:hover .nf-btn-icon {
+  transform: scale(1.15) rotate(-6deg);
+}
+
+/* ---------------------------------------------------------
+   KEYFRAME ANIMATIONS
+   --------------------------------------------------------- */
+@keyframes nf-gradient-flow {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+@keyframes nf-bg-breathe {
+  0% { transform: scale(1.03) translateY(0); }
+  50% { transform: scale(1.07) translateY(-8px); }
+  100% { transform: scale(1.03) translateY(0); }
+}
+
+@keyframes nf-glow-float {
+  0% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(35px, -25px) scale(1.08); }
+  100% { transform: translate(-20px, 25px) scale(0.96); }
+}
+
+/* ---------------------------------------------------------
+   RESPONSIVE BREAKPOINTS
+   --------------------------------------------------------- */
+@media (max-width: 768px) {
+  .not-found-container {
+    padding: 70px 16px 50px;
+  }
+
+  .nf-bg-image {
+    object-position: center 20%;
+  }
+
+  .nf-glass-card {
+    padding: 38px 24px;
+    border-radius: 24px;
+  }
+
+  .nf-glitch-title {
+    font-size: clamp(4.2rem, 15vw, 6rem);
+    letter-spacing: 3px;
+    margin-bottom: 12px;
+  }
+
+  .nf-subtitle {
+    font-size: 1.4rem;
+    letter-spacing: 1.8px;
+    margin-bottom: 26px;
+  }
+
+  .nf-btn-primary {
+    width: 100%;
+    max-width: 270px;
+    padding: 13px 26px;
+  }
+}
+
+@media (max-width: 480px) {
+  .not-found-container {
+    padding: 50px 14px 40px;
+  }
+
+  .nf-glass-card {
+    padding: 32px 18px;
+    border-radius: 20px;
+  }
+
+  .nf-glitch-title {
+    font-size: 3.8rem;
+    letter-spacing: 2px;
+  }
+
+  .nf-subtitle {
+    font-size: 1.25rem;
+    letter-spacing: 1.2px;
+    margin-bottom: 22px;
+  }
+}

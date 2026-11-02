@@ -51,7 +51,8 @@
   color: white;
   flex: 1;
   max-width: 700px;
-  min-width: 300px;
+  min-width: 0;
+  width: 100%;
 }
 
 .main-title {
@@ -109,15 +110,21 @@
 }
 
 .subtitle {
-  font-size: 1.25rem;
-  color: var(--text-secondary);
-  margin-bottom: 2.5rem;
-  line-height: 1.6;
+  font-size: clamp(0.95rem, 1.8vw, 1.2rem);
+  line-height: clamp(1.55, 2.5vw, 1.75);
+  color: rgba(255, 255, 255, 0.82);
+  margin: 0 0 2rem 0;
+  max-width: 650px;
+  width: 100%;
   position: relative;
   overflow: hidden;
   border-radius: 16px;
   opacity: 0;
-  animation: fadeInFromLeft 0.8s ease-out forwards;
+  animation: fadeInUpSubtitle 0.8s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  letter-spacing: 0.2px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
 }
 
 .subtitle-typewriter {
@@ -167,10 +174,22 @@
   animation: shine 3s infinite 0.8s;
 }
 
+@keyframes fadeInUpSubtitle {
+  0% {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 @keyframes fadeInFromLeft {
   0% {
     opacity: 0;
-    transform: translateX(-50px);
+    transform: translateX(-20px);
   }
 
   100% {
@@ -269,7 +288,11 @@
   }
 
   .subtitle {
-    font-size: 1.1rem;
+    font-size: clamp(0.95rem, 2.5vw, 1.1rem);
+    margin: 0 auto 1.75rem auto;
+    text-align: center;
+    max-width: 90%;
+    padding: 0 8px;
   }
 
   .home-right-content {
@@ -304,7 +327,12 @@
   }
 
   .subtitle {
-    font-size: 1rem;
+    font-size: clamp(0.88rem, 3.8vw, 1rem);
+    line-height: 1.6;
+    margin: 0 auto 1.4rem auto;
+    max-width: 100%;
+    padding: 0 4px;
+    letter-spacing: 0.1px;
   }
 
   .share {
