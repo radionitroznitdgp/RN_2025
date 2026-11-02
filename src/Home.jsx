@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import "./home.css";
+import "./Home.css";
 
 const Home = () => {
   const [isVisible, setIsVisible] = useState(false);
